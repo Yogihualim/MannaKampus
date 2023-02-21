@@ -10,13 +10,14 @@
 </head>
 <body>
     <div class="row">
-    <div class="col-lg-6 mb-5 mb-lg-0">
-        <img class="img" src="{{ env("APP_URL")."/public/1.png" }}" alt="..." title="">
+    <div class="col-lg-6 mb-lg-0">
+        <img class="img ps-4 pt-4" src="{{ env("APP_URL")."/public/1.png" }}" width="90%" alt="..." title="">
+        
         {{-- <img src="{{ URL::asset('1.png') }}" alt="..." title=""> --}}
     </div>
-    <div class="col-lg-7 mb-5 mb-lg-0">
+    <div class="col-lg-6 mb-5 mb-lg-0">
         <form>
-            <h2 class="mt-2">Visi Manna Kampus</h2>
+            <h2 class="mt-2">Customer Care</h2>
             <!-- Name input -->
             <div class="form-floating mb-3 mt-3">
                 <input type="form-control" class="form-control" id="floatingInput" placeholder="name@example.com">

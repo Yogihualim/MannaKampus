@@ -7,6 +7,35 @@
     <title>Main Page CSS</title>
 
     <style>
+        .parallax {
+            /* The image used */
+            background-image:url(https://www.mirotakampus.com/resources/views/admin/images/5dd1acbf63083);
+            
+            /* Set a specific height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallax1 {
+            /* The image used */
+            background-image:url(https://lh5.googleusercontent.com/p/AF1QipNvq4_xfJzxOl3Z1DwioNViJL5FTb0SSxOdaYCF=w525-h240-k-no);
+            
+            /* Set a specific height */
+            min-height: 350px;
+            font-weight: bold;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
         .navbar a {
             display: block;
             color: rgb(0, 0, 0);
@@ -43,13 +72,13 @@
 
         /* Social Media Icon */
         .fa {
-            padding-top: 12px;
-            font-size: 18px;
-            width: 40px;
-            height: 40px;
+            padding-top: 9px;
+            font-size: 15px;
+            width: 37px;
+            height: 30px;
             text-align: center;
             text-decoration: none;
-            border-radius: 50%;
+            border-radius: 15%;
         }
 
         .fa:hover {
@@ -71,9 +100,19 @@
             color: white;
         }
 
+        .fa-youtube {
+            background: #FF0000;
+            color: white;
+        }
+
         .fa-whatsapp {
             background: #25D366;
             color: white;
+        }
+
+        .fa-instagram {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         }
     </style>
 </head>

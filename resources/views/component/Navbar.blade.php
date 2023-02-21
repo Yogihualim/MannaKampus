@@ -21,8 +21,8 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Karir</a>
                         <ul class="dropdown-menu px-3">
-                            <li><a class="dropdown-item" href="aboutus">Info Lowongan</a></li>
-                            <li><a class="dropdown-item" href="lokasi">Hasil Tes</a></li>
+                            <li><a class="dropdown-item" href="karir">Info Lowongan</a></li>
+                            <li><a class="dropdown-item" href="karir">Hasil Tes</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Event</a></li>
                             <li><a class="dropdown-item" href="#">Other</a></li>

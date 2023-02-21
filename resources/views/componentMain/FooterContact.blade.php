@@ -14,9 +14,11 @@
                 <div class="col"><h4 class="text-uppercase text-start fs-5 fw-bold text-white mt-2">Manna Kampus</h4></div>
                 <div class="col text-end">
                     <a href="https://www.facebook.com/mirota.kmps/" class="fa fa-facebook"></a>
-                    <a href="mailto:humasmirotanayan@gmail.com" class="fa fa-at"></a>
                     <a href="https://www.linkedin.com/company/mirota-kampus/mycompany/" class="fa fa-linkedin"></a>
-                    <a href="https://www.linkedin.com/company/mirota-kampus/mycompany/" class="fa fa-whatsapp"></a>
+                    <a href="https://www.youtube.com/@mannakampus" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/mannakampus/" class="fa fa-instagram"></a>
+                    {{-- <a href="mailto:humasmirotanayan@gmail.com" class="fa fa-at"></a> --}}
+                    {{-- <a href="https://www.linkedin.com/company/mirota-kampus/mycompany/" class="fa fa-whatsapp"></a> --}}
                     {{-- <p class="btn btn-outline-light btn-social mx-1" href="#!"><i class="bi bi-whatsapp"></i></a> --}}
                 </div>
             </div>
@@ -24,6 +26,25 @@
             <hr class="divider text-white" />
             <div class="row">
                 <!-- Footer Location-->
+                <div class="col-lg-6 mb-5 mb-lg-0 text-white">
+                    <h4 class="text-uppercase mb-3 text-start fs-5 fw-bold">Tentang</h4>
+                    {{-- <hr> --}}
+                    <h6 class="text-start me-5 pe-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h6>
+                    <div class="row">
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <a class="nav-link text-start pb-2 fw-semibold" href="tel:0274566608"><i class="bi-telephone-fill pe-2 fw-2"></i>0274 566608</a>
+                    <a class="nav-link text-start pb-2 fw-semibold" href="mailto:humasmirotanayan@gmail.com"><i class="bi-envelope-fill pe-2 fw-2"></i>Humas Manna Kampus</a>
+                    <a class="nav-link text-start pb-2 fw-semibold" href="https://goo.gl/maps/cL6VVcJrd8zXNqaE9"><i class="bi-map-fill pe-2 fw-2"></i>Jl. C. Simanjuntak No.70, Yogyakarta</a>
+                    <div class="text-start pt-2">
+                        <a href="https://apps.apple.com/id/app/manna-kampus/id1584928138?l=id"><img class="app-badge" style="width: 145px;" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="..." /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline"><img class="app-badge" style="width: 175px;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="..." /></a>
+                    </div>
+                </div>
                 <div class="col-lg-3 mb-5 mb-lg-0 text-white">
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Promosi</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
@@ -60,13 +81,7 @@
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
-                <div class="col-lg-3 mb-5 mb-lg-0 text-white">
-                    <h4 class="text-uppercase mb-3 text-start fs-5 fw-bold">Tentang</h4>
-                    {{-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="bi bi-facebook"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="bi bi-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="bi bi-linkedin"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="bi bi-globe2"></i></a> --}}
-                </div>
+                
                 <!-- Footer About Text-->
                 {{-- <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-3 fs-5 fw-bold text-white">Customer Care</h4>
@@ -124,7 +139,7 @@
                 {{--</div> --}}
             </div>
         </div>
-        <br>
+        <br><br>
     </footer>
 </body>
 </html>

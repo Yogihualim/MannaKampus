@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\MapController;
-use App\Http\Controllers\CustomerCareController;
+use App\Http\Controllers\DepartemenController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,10 +40,22 @@ Route::get('/promosi', function () {
 Route::get('/blog', function () {
     return view('Blog');
 });
-// Route::get('/CustomerCare', function () {
-//     return view('CustomerCare');
-// });
+Route::get('/admin', function () {
+    return view('Admin.AdminHome');
+});
+Route::get('/customercare', function () {
+    return view('CustomerCare');
+});
+Route::get('/karir', function () {
+    return view('Karir');
+});
+Route::get('/infolowongan', function () {
+    return view('componentKarir.InfoLowongan');
+});
+Route::get('/hasiltest', function () {
+    return view('componentKarir.HasilTest');
+});
 
 // Route Pakai Controller
 Route::get('/lokasi', [MapController::class, 'index']);
-Route::get('/customercare', [CustomerCareController::class, 'index']);
+// Route::resource('data_customercare', CustomerCareController::class);

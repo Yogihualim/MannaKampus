@@ -44,7 +44,7 @@
                     <h2 class="mt-0">Sejarah Manna Kampus</h2>
                     <hr class="divider divider-light" />
                     <p class="text-white-75 mb-4">Manna Kampus yang sebelumnya dikenal dengan nama Mirota Kampus berdiri pada tanggal 13 Mei 1985 di bawah naungan PT. Mirota Nayan sehingga setiap tanggal 13 Mei diperingati...</p>
-                    <a class="btn btn-xl text-white" style="background-color:orange;" href="/AboutUs">Selengkapnya</a>
+                    <a class="btn btn-xl text-white" style="background-color:orange;" href="aboutus">Selengkapnya</a>
                 </div>
             </div>
         </div>
