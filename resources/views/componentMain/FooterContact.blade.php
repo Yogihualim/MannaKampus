@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Footer Contact Us</title>
-</head>
-<body>
+{{-- Footer Berisi Contact dan Penjelasan Singkat --}}
     <footer class="footer text-center" style="background-color:#e77821;">
         <br id="lokasi">
         <div class="container">
@@ -141,5 +133,3 @@
         </div>
         <br><br>
     </footer>
-</body>
-</html>

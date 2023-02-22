@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>History & About Us</title>
-</head>
-<body>
+{{-- Bagian History --}}
     <section class="page-section p-5 bg-white">
         <br id="about">
         <h4 class="display-5 lh-1 mb-3 text-center fw-semibold">Visi & Misi</h4>
@@ -50,5 +42,3 @@
         </div>
         <br>
     </section>
-</body>
-</html>

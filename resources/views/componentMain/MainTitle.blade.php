@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main Title</title>
-</head>
-<body>
+{{-- Hanya Untuk Judul dan Carousel --}}
+
     <div class="parallax" style="background-image:url(https://www.mirotakampus.com/resources/views/admin/images/5dd1acbf63083);">
         <br id="top"><br><br><br><br>
         <header class="masthead">
@@ -104,5 +97,3 @@
         </div>
         <br><br>
     </div>
-</body>
-</html>

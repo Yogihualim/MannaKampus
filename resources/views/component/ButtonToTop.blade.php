@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Button To Top</title>
-
+{{-- Style Button --}}
     <style>
         #myBtn {
             display: none; /* Hidden by default */
@@ -27,9 +20,11 @@
             background-color: #7a7a7a; /* Add a dark-grey background on hover */
         }
     </style>
-</head>
-<body>
+
+{{-- Button Component --}}
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-double-up"></i></button>
+
+{{-- Script --}}
     <script>
         // Get the button:
 
@@ -52,5 +47,3 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
-</body>
-</html>

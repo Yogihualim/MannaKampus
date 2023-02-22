@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main Page CSS</title>
-
+{{-- Style --}}
     <style>
         .parallax {
             /* The image used */
@@ -39,11 +32,11 @@
         .navbar a {
             display: block;
             color: rgb(0, 0, 0);
-            text-align: center;
+            text-align: start;
             padding: 10px 30px;
             text-decoration: none;
             border-radius: 8px;
-            margin-left: 2.5px;
+            margin-left: 1px;
             margin-right: 2.5px;
         }
         .navbar a:hover {
@@ -114,10 +107,26 @@
             background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
             background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         }
+
+        .nav a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: start;
+            padding: 10px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+        }
+        .nav a:hover {
+            background-color: #ff9544;
+            color: rgb(255, 255, 255);
+            border-radius: 8px;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+        }
+        .nav a.active {
+            background-color: #666;
+            color: rgb(255, 255, 255);
+        }       
     </style>
-</head>
-<body>
-    <script>
-    </script>
-</body>
-</html>

@@ -7,6 +7,7 @@
     <title>Home Page</title>
 
     @include('assets.scriptLink')
+    @include('cssStyle.mainPageCSS')
 </head>
 <body id="page-top">
     {{-- Navigasi Bar --}}

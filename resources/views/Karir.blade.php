@@ -7,6 +7,7 @@
     <title>Karir Page</title>
 
     @include('assets.scriptLink')
+    @include('cssStyle.mainPageCSS')
 </head>
 <body>
     <!-- Navigation-->
@@ -20,17 +21,36 @@
         <hr>
         <h5 class="fw-normal fs-6 lh-sm">
             <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="nav card p-4 m-4 text-start">
+                <div class="col-lg-3 col-md-6">
+                    <div class="nav card py-2 px-1 text-start">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('infolowongan')}}">Info Lowongan</a>
+                            <a class="nav-link" id="Act" href="{{url('infolowongan')}}">
+                                <i class="bi-collection pe-2 fw-2"></i>
+                                Info Lowongan
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('hasiltest')}}">Hasil Test</a>
+                            <a class="nav-link" id="Act" href="{{url('hasiltest')}}">
+                                <i class="bi-megaphone pe-2 fw-2"></i>
+                                Hasil Test
+                            </a>
+                        </li>
+                        <hr class="mx-3"/>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Act" href="{{url('hasiltest')}}">
+                                <i class="bi-calendar2-event pe-2 fw-2"></i>
+                                Event
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Act" href="{{url('hasiltest')}}">
+                                <i class="bi-info-circle pe-2 fw-2"></i>
+                                Other
+                            </a>
                         </li>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-start">
+                <div class="col-lg-9 col-md-6 text-start">
                     @yield('content')
                 </div>
             </div>
@@ -49,26 +69,9 @@
 </body>
 </html>
 
-<style>
-    .navitem i {
-        display: block;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        padding: 10px 30px;
-        text-decoration: none;
-        border-radius: 8px;
-        margin-left: 2.5px;
-        margin-right: 2.5px;
+<script>
+    function ActiveBtn() {
+        var x = document.getElementById("Btn");
+        x.disabled = false;
     }
-    .navitem i:hover {
-        background-color: #ff9544;
-        color: rgb(255, 255, 255);
-        border-radius: 8px;
-        margin-left: 2.5px;
-        margin-right: 2.5px;
-    }
-    .navitem i.active {
-        background-color: #666;
-        color: rgb(255, 255, 255);
-    }
-</style>
+</script>

@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Customer Care Page CSS</title>
-<style>
-</style>
+    <title>Main Page</title>
 
+    
+    {{-- Halaman untuk semua media yang perlu isi --}}
+    @yield('scriptAll')
+    @yield('styleAll')
 </head>
 <body>
-    
+    @yield('NavigasiBar')
+    @yield('MainCard')
+
 </body>
 </html>

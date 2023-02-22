@@ -28,8 +28,17 @@ Route::get('/Dump', function () {
 Route::get('/id', function () {
     return view('Homepage');
 });
+Route::get('/id2', function () {
+    return view('Mainpage');
+});
 Route::get('/aboutus', function () {
-    return view('AboutUs');
+    return view('componentAboutUs.Sejarah');
+});
+Route::get('/visimisi', function () {
+    return view('componentAboutUs.VisiMisi');
+});
+Route::get('/customercare', function () {
+    return view('componentCustomerCare.FormCC');
 });
 Route::get('/onlineshop', function () {
     return view('OnlineShop');
@@ -43,9 +52,9 @@ Route::get('/blog', function () {
 Route::get('/admin', function () {
     return view('Admin.AdminHome');
 });
-Route::get('/customercare', function () {
-    return view('CustomerCare');
-});
+// Route::get('/customercare', function () {
+//     return view('CustomerCare');
+// });
 Route::get('/karir', function () {
     return view('Karir');
 });
