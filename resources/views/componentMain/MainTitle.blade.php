@@ -8,7 +8,7 @@
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <img class="img" src="{{ env("APP_URL")."/public/Logo_Tulisan_Manna_Kampus.png" }}" height="60" alt="..." title="">
+                            <img class="img" src="public/Logo_Tulisan_Manna_Kampus.png" height="60" alt="..." title="">
                             {{-- <img class="navbar-brand" src="https://www.mirotakampus.com/resources/views/themes/plugin/images/logo.png" height="70" alt="CoolBrand"> --}}
                             {{-- <h1 class="display-1 mb-3 fw-bold text-white">Manna Kampus</h1> --}}
                             <p class="lead fw-normal mb-3 text-white fw-semibold">Alternatif belanja berbagai macam produk dalam satu situs untuk memenuhi semua kebutuhan konsumen.</p>
@@ -25,16 +25,20 @@
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="https://lelogama.go-jek.com/post_thumbnail/promo-gomart-feb-2023.jpg" class="d-block w-100" alt="...">
+                                <img src="public/carousel/C1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="https://lelogama.go-jek.com/post_thumbnail/promo-gomart-feb-2023.jpg" class="d-block w-100" alt="...">
+                                <img src="public/carousel/C2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="https://lelogama.go-jek.com/post_thumbnail/promo-gomart-feb-2023.jpg" class="d-block w-100" alt="...">
+                                <img src="public/carousel/C4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                <img src="public/carousel/C4.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -52,48 +56,6 @@
             </div>
         </header>
     </div>
-    {{-- <div style="background-color: #e77821"> --}}
-    <section class="page-section pb-5 text-white" id="services" style="background-color: #e77821">
-        <p class="lead fw-normal text-white text-center fw-semibold"><br><br>Tersedia di Android & IOs<br>Download Sekarang!<br><br>
-            <a href="https://apps.apple.com/id/app/manna-kampus/id1584928138?l=id"><img class="app-badge" style="width: 145px;" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="..." /></a>
-            <a href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline"><img class="app-badge" style="width: 175px;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="..." /></a>
-        </p>
-    </section>
-    <div class="parallax1 page-section text-white">
-        <br><br>
-        <div class="container">
-            <h2 class="text-center mt-0">Online Service</h2>
-            <hr class="divider" />
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-2">
-                        <div class="mb-2"><i class="bi-truck fs-1"></i></div>
-                        <h3 class="h4 mb-2">Layanan Pengiriman</h3>
-                        <p class="mb-0">Door To Door Daerah Istimewa Yogyakarta.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-2">
-                        <div class="mb-2"><i class="bi-laptop fs-1"></i></div>
-                        <h3 class="h4 mb-2">Garansi Terbaik</h3>
-                        <p class="mb-0">Produk Berkualitas.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-2">
-                        <div class="mb-2"><i class="bi-globe fs-1"></i></div>
-                        <h3 class="h4 mb-2">Order 24 jam</h3>
-                        <p class="mb-0">Bisa Order Kapan Saja</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-2">
-                        <div class="mb-2"><i class="bi-heart fs-1"></i></div>
-                        <h3 class="h4 mb-2">Harga Termurah</h3>
-                        <p class="mb-0">Di Jamin Harga Murah</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br>
-    </div>
+
+    
+    

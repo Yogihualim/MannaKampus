@@ -29,9 +29,12 @@
                         <li class="nav-item">
                             <a class="nav-link" id="Act" href="{{url('visimisi')}}"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Act" href="{{url('lokasi')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
+                        </li>
                         <hr class="mx-3"/>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('customercare')}}"><i class="bi-postcard pe-2 fw-2"></i>Customer Care</a>
+                            <a class="nav-link" id="Act" href="{{url('customercare')}}"><i class="bi-person-exclamation pe-2 fw-2"></i>Customer Care</a>
                         </li>
                     </div>
                 </div>

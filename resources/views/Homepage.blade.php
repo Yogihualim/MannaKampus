@@ -16,6 +16,12 @@
     {{-- Judul Besar --}}
     @include('componentMain.MainTitle')
 
+    {{-- Download Button --}}
+    @include('componentMain.DownloadBtn')
+
+    {{-- Parallax --}}
+    @include('componentMain.Parallax')
+
     {{-- About Us --}}
     @include('componentMain.History')
 
@@ -33,6 +39,9 @@
             </div> --}}
         </div>
     </footer>
+
+    {{-- Owl Carousel --}}
+    @include('componentMain.owlCard')
 
     {{-- Footer Contact Us --}}
     @include('componentMain.FooterContact')

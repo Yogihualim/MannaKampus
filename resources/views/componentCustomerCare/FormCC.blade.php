@@ -3,11 +3,11 @@
 @section('aboutUs')
     <div class="row">
         <div class="col-lg-6 mb-lg-0">
-            <img class="img ps-4 pt-4" src="{{ env("APP_URL")."/public/1.png" }}" width="90%" alt="..." title="">
+            <img class="img ps-4 pt-4" src="public/1.png" width="90%" alt="..." title="">
             
             {{-- <img src="{{ URL::asset('1.png') }}" alt="..." title=""> --}}
         </div>
-        <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="col-lg-6 mb-5 mb-lg-4">
             <form>
                 <h2 class="mt-2">Customer Care</h2>
                 <!-- Name input -->

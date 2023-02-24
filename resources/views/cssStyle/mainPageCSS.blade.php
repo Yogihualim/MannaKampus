@@ -19,9 +19,9 @@
             background-image:url(https://lh5.googleusercontent.com/p/AF1QipNvq4_xfJzxOl3Z1DwioNViJL5FTb0SSxOdaYCF=w525-h240-k-no);
             
             /* Set a specific height */
-            min-height: 350px;
+            min-height: 325px;
             font-weight: bold;
-
+            
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
             background-position: center;
@@ -36,7 +36,7 @@
             padding: 10px 30px;
             text-decoration: none;
             border-radius: 8px;
-            margin-left: 1px;
+            margin-left: 2.5px;
             margin-right: 2.5px;
         }
         .navbar a:hover {
@@ -47,8 +47,12 @@
             margin-right: 2.5px;
         }
         .navbar a.active {
-            background-color: #666;
+            background-color: #ff9544;
             color: rgb(255, 255, 255);
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
         }
 
         @media screen and (max-width: 600px) {
@@ -127,7 +131,11 @@
             margin-right: 2.5px;
         }
         .nav a.active {
-            background-color: #666;
+            background-color: #ff9544;
             color: rgb(255, 255, 255);
-        }       
+        }  
     </style>
+
+    <script>
+        
+    </script>

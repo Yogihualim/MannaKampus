@@ -37,13 +37,13 @@
                         </li>
                         <hr class="mx-3"/>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('hasiltest')}}">
+                            <a class="nav-link" id="Act" href="{{url('event')}}">
                                 <i class="bi-calendar2-event pe-2 fw-2"></i>
                                 Event
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('hasiltest')}}">
+                            <a class="nav-link" id="Act" href="{{url('other')}}">
                                 <i class="bi-info-circle pe-2 fw-2"></i>
                                 Other
                             </a>
