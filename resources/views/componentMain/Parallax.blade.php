@@ -1,7 +1,6 @@
 {{-- Parallax Informasi --}}
-    
         <div class="parallax1 page-section text-white">
-            <div style="background-color: black; opacity: 0.2;"></div>
+            
             <br><br>
             <div class="container" id="p">
                 <h2 class="text-center mt-0">Online Service</h2>

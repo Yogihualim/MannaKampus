@@ -16,8 +16,8 @@
 
         .parallax1 {
             /* The image used */
-            background-image:url(https://lh5.googleusercontent.com/p/AF1QipNvq4_xfJzxOl3Z1DwioNViJL5FTb0SSxOdaYCF=w525-h240-k-no);
-            
+            background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , 
+            url(https://lh5.googleusercontent.com/p/AF1QipNvq4_xfJzxOl3Z1DwioNViJL5FTb0SSxOdaYCF=w525-h240-k-no);
             /* Set a specific height */
             min-height: 325px;
             font-weight: bold;
@@ -46,9 +46,11 @@
             margin-left: 2.5px;
             margin-right: 2.5px;
         }
+
         .navbar a.active {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
+            transition: 10s;
         }
 
         .dropdown:hover .dropdown-menu {
