@@ -39,10 +39,10 @@
                 <div class="col-lg-3 mb-5 mb-lg-0 text-white">
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Promosi</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
-                        <a class="nav-link text-start" href="#">Big Event</a>
-                        <a class="nav-link text-start" href="#">Katalog Jumat</a>
-                        <a class="nav-link text-start" href="#">Katalog Tanggal Muda</a>
-                        <a class="nav-link text-start" href="#">Katalog Event</a>
+                        <a class="nav-link text-start" href="bigevent">Big Event</a>
+                        <a class="nav-link text-start" href="katalogjumat">Katalog Jumat</a>
+                        <a class="nav-link text-start" href="katalogtanggalmuda">Katalog Tanggal Muda</a>
+                        <a class="nav-link text-start" href="katalogevent">Katalog Event</a>
                     </p>
                     <br><br>
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Online Shopping</h4>
@@ -58,17 +58,17 @@
                 <div class="col-lg-2 mb-5 mb-lg-0 text-white">
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Karir</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
-                        <a class="nav-link text-start" href="#">Info Lowongan Kerja</a>
-                        <a class="nav-link text-start" href="#">Hasil Tes</a>
-                        <a class="nav-link text-start" href="#">Event</a>
-                        <a class="nav-link text-start" href="#">Other</a>
+                        <a class="nav-link text-start" href="infolowongan">Info Lowongan Kerja</a>
+                        <a class="nav-link text-start" href="hasiltest">Hasil Tes</a>
+                        <a class="nav-link text-start" href="event">Event</a>
+                        <a class="nav-link text-start" href="other">Other</a>
                     </p>
                     <br><br>
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Blog</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
-                        <a class="nav-link text-start" href="#">Info Pelanggan</a>
-                        <a class="nav-link text-start" href="#">Resep Dapur</a>
-                        <a class="nav-link text-start" href="#">Seputar Produk</a>
+                        <a class="nav-link text-start" href="infopelanggan">Info Pelanggan</a>
+                        <a class="nav-link text-start" href="resepdapur">Resep Dapur</a>
+                        <a class="nav-link text-start" href="seputarproduk">Seputar Produk</a>
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
