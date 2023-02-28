@@ -14,7 +14,7 @@
     @include('component.Navbar')
 
     {{-- Kategoriaa --}}
-    <br id="top"><br><br>
+    <br id="top"><br><br><br>
     {{-- Isi Sejarah --}}
     <div class="card p-4 m-4">
         <h2 class="fs-2">Tentang Kami - Manna Kampus (Mirota Kampus)</h2>
@@ -30,7 +30,7 @@
                             <a class="nav-link" id="Act" href="{{url('visimisi')}}"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('lokasi')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
+                            <a class="nav-link" id="Act" href="{{url('lokasi/1')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
                         </li>
                         <hr class="mx-3"/>
                         <li class="nav-item">
@@ -38,7 +38,7 @@
                         </li>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-6 text-start">
+                <div class="col-lg-9 col-md-6 text-start">
                     @yield('aboutUs')
                 </div>
             </div>

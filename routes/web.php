@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\MapController;
-use App\Http\Controllers\DepartemenController;
+use App\Http\Controllers\ktgJumat_Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,9 +38,6 @@ Route::get('/aboutus', function () {
 });
 Route::get('/visimisi', function () {
     return view('componentAboutUs.VisiMisi');
-});
-Route::get('/lokasi', function () {
-    return view('componentLokasi.LokasiDetail');
 });
 Route::get('/customercare', function () {
     return view('componentCustomerCare.FormCC');
@@ -90,9 +87,42 @@ Route::get('/admin', function () {
     return view('Admin.AdminHome');
 });
 
-
+// Route Masing-masing lokasi
+// Route::get('/lokasi', function () {
+//     return view('componentLokasi.LokasiDetail');
+// });
+Route::get('/lokasi/1', function () {
+    return view('componentLokasi.lokasicabang.1_Babarsari');
+});
+Route::get('/lokasi/2', function () {
+    return view('componentLokasi.lokasicabang.2_Simanjuntak');
+});
+Route::get('/lokasi/3', function () {
+    return view('componentLokasi.lokasicabang.3_Supeno');
+});
+Route::get('/lokasi/4', function () {
+    return view('componentLokasi.lokasicabang.4_Palagan');
+});
+Route::get('/lokasi/5', function () {
+    return view('componentLokasi.lokasicabang.5_Godean');
+});
+Route::get('/lokasi/6', function () {
+    return view('componentLokasi.lokasicabang.6_Imogiri');
+});
+Route::get('/lokasi/7', function () {
+    return view('componentLokasi.lokasicabang.7_Mini_Pelemsewu');
+});
+Route::get('/lokasi/8', function () {
+    return view('componentLokasi.lokasicabang.8_Mini_Diro');
+});
+Route::get('/lokasi/9', function () {
+    return view('componentLokasi.lokasicabang.9_Mini_Minomartani');
+});
+Route::get('/lokasi/10', function () {
+    return view('componentLokasi.lokasicabang.10_Peralatan_Rumah_Tangga');
+});
 
 
 // Route Pakai Controller
 // Route::get('/lokasi', [MapController::class, 'index']);
-// Route::resource('data_customercare', CustomerCareController::class);
+Route::resource('katalog_jumat', ktgJumat_Controller::class);

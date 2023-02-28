@@ -8,11 +8,11 @@
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <img class="img" src="public/Logo_Tulisan_Manna_Kampus.png" height="60" alt="..." title="">
+                            <img class="img animate__animated animate__fadeInLeft" src="public/Logo_Tulisan_Manna_Kampus.png" height="60" alt="..." title="">
                             {{-- <img class="navbar-brand" src="https://www.mirotakampus.com/resources/views/themes/plugin/images/logo.png" height="70" alt="CoolBrand"> --}}
                             {{-- <h1 class="display-1 mb-3 fw-bold text-white">Manna Kampus</h1> --}}
-                            <p class="lead fw-normal mb-3 text-white fw-semibold">Alternatif belanja berbagai macam produk dalam satu situs untuk memenuhi semua kebutuhan konsumen.</p>
-                            <a class="btn btn-xl text-white" style="background-color:#e77823;" href="https://www.mirotakampus.com/id">Belanja Sekarang!</a>
+                            <p class="lead fw-normal mb-3 text-white fw-semibold animate__animated animate__fadeInLeft">Alternatif belanja berbagai macam produk dalam satu situs untuk memenuhi semua kebutuhan konsumen.</p>
+                            <a class="btn btn-xl text-white animate__animated animate__fadeInLeft" style="background-color:#e77823;" href="https://www.mirotakampus.com/id">Belanja Sekarang!</a>
                             {{-- <p class="lead fw-normal mb-2 text-white fw-semibold"><br><br>Tersedia di Android & IOs<br>Download Sekarang!<br><br>
                                 <a href="https://apps.apple.com/id/app/manna-kampus/id1584928138?l=id"><img class="app-badge" style="width: 145px;" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="..." /></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline"><img class="app-badge" style="width: 175px;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="..." /></a>
@@ -29,16 +29,16 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="public/carousel/C1.jpg" class="d-block w-100" alt="...">
+                                    <img src="public/carousel/C5.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="public/carousel/C2.jpg" class="d-block w-100" alt="...">
+                                    <img src="public/carousel/C2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="public/carousel/C4.jpg" class="d-block w-100" alt="...">
+                                    <img src="public/carousel/C1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="public/katalogjumat/PJ3.jpg" class="d-block w-100" alt="...">
+                                    <img src="public/carousel/C4.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

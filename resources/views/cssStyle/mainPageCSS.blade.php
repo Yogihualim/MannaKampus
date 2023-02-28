@@ -16,7 +16,7 @@
 
         .parallax1 {
             /* The image used */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , 
+            background-image: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.8)) , 
             url(https://lh5.googleusercontent.com/p/AF1QipNvq4_xfJzxOl3Z1DwioNViJL5FTb0SSxOdaYCF=w525-h240-k-no);
             /* Set a specific height */
             min-height: 325px;
@@ -39,6 +39,7 @@
             margin-left: 2.5px;
             margin-right: 2.5px;
         }
+        
         .navbar a:hover {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
@@ -135,7 +136,42 @@
         .nav a.active {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
-        }  
+        } 
+
+        /* Side Navbar Admin Menu */
+        .sidenav {
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #ff9544;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .sidenav a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            display: block;
+            padding-left: 25px;
+        }
+
+        .sidenav a:hover {
+            color: #ff9544;
+            background-color: white;
+            border-radius: 7px;
+            padding-left: 25px;
+        }
+        
+        @media screen and (max-width: 400px){
+            .sidenav {
+                width: 100%;
+                height: 20%;
+            }
+        }
     </style>
 
     <script>

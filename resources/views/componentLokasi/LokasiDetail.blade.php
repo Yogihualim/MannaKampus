@@ -2,120 +2,51 @@
 @extends('AboutUs')
 
 @section('aboutUs')
-    <div class="row gx-2 gy-lg-1 pb-1">
-        <div class="col-lg-4 col-md-6">
+<hr>
+    <h5 class="fw-normal fs-6 lh-sm">
+        <div class="row gx-8 gx-lg-10">
+            <div class="col-lg-4 col-md-6">
+                <div class="nav card py-2 px-1 text-start">
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/1')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Babarsari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/2')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus C. Simanjuntak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/3')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus M. Supeno</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/4')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Palagan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/5')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Godean</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/6')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Imogiri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/7')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Pelemsewu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/8')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Diro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/9')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Minomartani</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Act" href="{{url('lokasi/10')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Peralatan Rumah Tangga</a>
+                    </li>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-2 text-start">
+                <hr>
             {{-- 1. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Manna Kampus Babarsari</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    {{-- <button onclick="read()" id="rmBtn">Read more</button> --}}
-                    <a href="#" class="btn btn-primary">Selengkapnya</a>
-                </div>
+                @yield('lokasiCabang')
             </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-            {{-- 2. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Selengkapnya</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            {{-- 3. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            {{-- 4. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
+    </h5>
     
-        <div class="col">
-            {{-- 1. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            {{-- 2. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            {{-- 3. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            {{-- 4. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            {{-- 2. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            {{-- 3. Misi Mirota Kampus --}}
-            <div class="card" style="width: 100%;">
-                <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
 {{-- Style --}}
 <style>

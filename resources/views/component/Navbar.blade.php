@@ -1,7 +1,9 @@
 {{-- Navigasi Bar --}}
     <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top" id="mainNav" style="background-color: white">
-        <div class="container px-4 px-lg-5" >
-            <img class="navbar-brand" src="https://www.mirotakampus.com/resources/views/themes/plugin/images/logo.png" height="45" alt="CoolBrand">
+        <div class="container px-4 px-lg-5">
+            <a href="id">
+                <img class="navbar-brand" src="https://www.mirotakampus.com/resources/views/themes/plugin/images/logo.png" height="45" alt="CoolBrand">
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
@@ -36,11 +38,11 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact Us</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu px-3">
                             <li><a class="dropdown-item" href="aboutus"><i class="bi-archive pe-2 fw-2"></i>Sejarah</a></li>
                             <li><a class="dropdown-item" href="visimisi"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a></li>
-                            <li><a class="dropdown-item" href="lokasi"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a></li>
+                            <li><a class="dropdown-item" href="lokasi/1"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="customercare"><i class="bi-person-exclamation pe-2 fw-2"></i>Customer Care</a></li>
                         </ul>
