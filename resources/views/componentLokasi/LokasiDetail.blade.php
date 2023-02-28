@@ -6,36 +6,36 @@
     <h5 class="fw-normal fs-6 lh-sm">
         <div class="row gx-8 gx-lg-10">
             <div class="col-lg-4 col-md-6">
-                <div class="nav card py-2 px-1 text-start">
+                <div class="nav py-2 px-1 text-start">
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/1')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Babarsari</a>
+                        <a class="nav-link" id="Act" href="{{url('1')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Babarsari</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/2')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus C. Simanjuntak</a>
+                        <a class="nav-link" id="Act" href="{{url('2')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus C. Simanjuntak</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/3')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus M. Supeno</a>
+                        <a class="nav-link" id="Act" href="{{url('3')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus M. Supeno</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/4')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Palagan</a>
+                        <a class="nav-link" id="Act" href="{{url('4')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Palagan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/5')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Godean</a>
+                        <a class="nav-link" id="Act" href="{{url('5')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Godean</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/6')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Imogiri</a>
+                        <a class="nav-link" id="Act" href="{{url('6')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Imogiri</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/7')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Pelemsewu</a>
+                        <a class="nav-link" id="Act" href="{{url('7')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Pelemsewu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/8')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Diro</a>
+                        <a class="nav-link" id="Act" href="{{url('8')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Diro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/9')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Minomartani</a>
+                        <a class="nav-link" id="Act" href="{{url('9')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Mini Minomartani</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Act" href="{{url('lokasi/10')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Peralatan Rumah Tangga</a>
+                        <a class="nav-link" id="Act" href="{{url('10')}}"><i class="bi-signpost-split pe-2 fw-2"></i>Manna Kampus Peralatan Rumah Tangga</a>
                     </li>
                 </div>
             </div>

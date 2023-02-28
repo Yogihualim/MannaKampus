@@ -1,7 +1,7 @@
 @extends('componentLokasi.LokasiDetail')
 
 @section('lokasiCabang')
-    <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" alt="...">
+    <img src="https://www.pngfind.com/pngs/m/225-2255372_uw-whtiewater-building-icon-department-store-icon-png.png" class="card-img-top" style="border-radius: 15px" alt="...">
     <div class="card-body">
         <h3 class="card-title">Manna Kampus M. Supeno</h3>
         <p class="card-text">Manna Kampus M. Supeno merupakan outlet ke-3 yang telah berdiri sejak tahun 2010. Outlet ini menyediakan aneka 

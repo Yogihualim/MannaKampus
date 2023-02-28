@@ -42,7 +42,7 @@
                         <ul class="dropdown-menu px-3">
                             <li><a class="dropdown-item" href="aboutus"><i class="bi-archive pe-2 fw-2"></i>Sejarah</a></li>
                             <li><a class="dropdown-item" href="visimisi"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a></li>
-                            <li><a class="dropdown-item" href="lokasi/1"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a></li>
+                            <li><a class="dropdown-item" href="1"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="customercare"><i class="bi-person-exclamation pe-2 fw-2"></i>Customer Care</a></li>
                         </ul>

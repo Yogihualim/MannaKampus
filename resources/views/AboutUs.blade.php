@@ -30,7 +30,7 @@
                             <a class="nav-link" id="Act" href="{{url('visimisi')}}"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('lokasi/1')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
+                            <a class="nav-link" id="Act" href="{{url('1')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
                         </li>
                         <hr class="mx-3"/>
                         <li class="nav-item">

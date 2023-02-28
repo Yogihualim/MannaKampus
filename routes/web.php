@@ -91,34 +91,34 @@ Route::get('/admin', function () {
 // Route::get('/lokasi', function () {
 //     return view('componentLokasi.LokasiDetail');
 // });
-Route::get('/lokasi/1', function () {
+Route::get('/1', function () {
     return view('componentLokasi.lokasicabang.1_Babarsari');
 });
-Route::get('/lokasi/2', function () {
+Route::get('/2', function () {
     return view('componentLokasi.lokasicabang.2_Simanjuntak');
 });
-Route::get('/lokasi/3', function () {
+Route::get('/3', function () {
     return view('componentLokasi.lokasicabang.3_Supeno');
 });
-Route::get('/lokasi/4', function () {
+Route::get('/4', function () {
     return view('componentLokasi.lokasicabang.4_Palagan');
 });
-Route::get('/lokasi/5', function () {
+Route::get('/5', function () {
     return view('componentLokasi.lokasicabang.5_Godean');
 });
-Route::get('/lokasi/6', function () {
+Route::get('/6', function () {
     return view('componentLokasi.lokasicabang.6_Imogiri');
 });
-Route::get('/lokasi/7', function () {
+Route::get('/7', function () {
     return view('componentLokasi.lokasicabang.7_Mini_Pelemsewu');
 });
-Route::get('/lokasi/8', function () {
+Route::get('/8', function () {
     return view('componentLokasi.lokasicabang.8_Mini_Diro');
 });
-Route::get('/lokasi/9', function () {
+Route::get('/9', function () {
     return view('componentLokasi.lokasicabang.9_Mini_Minomartani');
 });
-Route::get('/lokasi/10', function () {
+Route::get('/10', function () {
     return view('componentLokasi.lokasicabang.10_Peralatan_Rumah_Tangga');
 });
 
