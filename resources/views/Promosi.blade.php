@@ -30,7 +30,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('katalogjumat')}}">
+                            <a class="nav-link" id="Act" href="{{url('katalogs')}}">
                                 <i class="bi-calendar2-day pe-2 fw-2"></i>
                                 Katalog Jumat
                             </a>

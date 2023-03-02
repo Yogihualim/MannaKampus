@@ -40,7 +40,7 @@
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Promosi</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
                         <a class="nav-link text-start" href="bigevent">Big Event</a>
-                        <a class="nav-link text-start" href="katalogjumat">Katalog Jumat</a>
+                        <a class="nav-link text-start" href="katalogs">Katalog Jumat</a>
                         <a class="nav-link text-start" href="katalogtanggalmuda">Katalog Tanggal Muda</a>
                         <a class="nav-link text-start" href="katalogevent">Katalog Event</a>
                     </p>
@@ -49,9 +49,10 @@
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
                         <a class="nav-link text-start" href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline">Via Manna Kampus Online</a>
                         <a class="nav-link text-start" href="#">Via Grabmart</a>
-                        <a class="nav-link text-start" href="#">Via Blibli</a>
-                        <a class="nav-link text-start" href="#">Via Shopee</a>
-                        <a class="nav-link text-start" href="#">Via Lazada</a>
+                        <a class="nav-link text-start" href="https://www.blibli.com/merchant/mirota-kampus/MIK-60049">Via Blibli</a>
+                        <a class="nav-link text-start" href="https://shp.ee/ba7zgws">Via Shopee</a>
+                        <a class="nav-link text-start" href="https://www.lazada.co.id/shop/mirota-kampus/?">Via Lazada</a>
+                        <a class="nav-link text-start" href="https://tokopedia.link/mqDFke73ixb">Via Tokopedia</a>
                     </p>
                 </div>
                 <!-- Footer Location-->

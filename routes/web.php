@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\MapController;
 use App\Http\Controllers\ktgJumat_Controller;
+use App\Http\Controllers\katalogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -72,9 +73,9 @@ Route::get('/seputarproduk', function () {
 Route::get('/bigevent', function () {
     return view('componentPromosi.BigEvent');
 });
-Route::get('/katalogjumat', function () {
-    return view('componentPromosi.KatalogJumat');
-});
+// Route::get('/katalogjumat', function () {
+//     return view('componentPromosi.KatalogJumat');
+// });
 Route::get('/katalogtanggalmuda', function () {
     return view('componentPromosi.KatalogTanggalMuda');
 });
@@ -125,4 +126,5 @@ Route::get('/10', function () {
 
 // Route Pakai Controller
 // Route::get('/lokasi', [MapController::class, 'index']);
-Route::resource('katalog_jumat', ktgJumat_Controller::class);
+Route::resource('/katalog_jumat', ktgJumat_Controller::class);
+Route::resource('/katalogs', katalogController::class);
