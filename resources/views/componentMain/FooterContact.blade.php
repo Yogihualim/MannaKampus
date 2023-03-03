@@ -54,7 +54,6 @@
                         <a class="nav-link text-start" href="https://www.lazada.co.id/shop/mirota-kampus/?">Via Lazada</a>
                         <a class="nav-link text-start" href="https://tokopedia.link/mqDFke73ixb">Via Tokopedia</a>
                     </p>
-                    <br>
                 </div>
                 <!-- Footer Location-->
                 <div class="col-lg-2 mb-1 mb-lg-0 text-white">
