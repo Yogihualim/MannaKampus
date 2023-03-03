@@ -15,6 +15,8 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle ps-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Home</a>
                         <ul class="dropdown-menu px-3">
+                            <li><a class="dropdown-item" href="id"><i class="bi-house pe-2 fw-2"></i>Home</a></li>
+                            <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="aboutus"><i class="bi-archive pe-2 fw-2"></i>Sejarah</a></li>
                             <li><a class="dropdown-item" href="visimisi"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a></li>
                             <li><a class="dropdown-item" href="1"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a></li>

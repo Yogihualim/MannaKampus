@@ -159,6 +159,10 @@
             color: rgb(255, 255, 255);
         }
 
+        .dropdown-toggle:hover {
+            color: white;
+        }
+
         .dropdown-menu {
             border-radius: 7px;
         }
