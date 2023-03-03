@@ -2,7 +2,7 @@
         <div class="parallax1 page-section text-white">
             
             <br><br>
-            <div class="container" id="p">
+            <div class="container">
                 <h2 class="text-center mt-0">Online Service</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">

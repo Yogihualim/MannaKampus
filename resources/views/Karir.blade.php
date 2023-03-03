@@ -14,7 +14,7 @@
     @include('component.Navbar')
 
     {{-- a --}}
-    <br id="top"><br><br><br>
+    <br id="top"><br><br>
     {{-- Isi Sejarah --}}
     <div class="card p-4 m-4">
         <h2 class="fs-2">Karir - Manna Kampus (Mirota Kampus)</h2>

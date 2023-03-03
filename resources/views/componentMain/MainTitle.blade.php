@@ -1,26 +1,23 @@
 {{-- Hanya Untuk Judul dan Carousel --}}
 
-    <div class="parallax" style="background-image:url(https://www.mirotakampus.com/resources/views/admin/images/5dd1acbf63083);">
+<section class="bg-info text-dark text-center text-sm-start" >
+    <div class="parallax" style="background-image:url(https://www.mirotakampus.com/resources/views/admin/images/5dd1acbf63083)">
         <br id="top"><br><br><br><br>
         <header class="masthead">
             <div class="container px-2">
                 <div class="row gx-3 align-items-center">
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
-                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <div id="judul" class="mb-5 mb-lg-0 text-start text-lg-start">
                             <img class="img animate__animated animate__fadeInLeft" src="public/Logo_Tulisan_Manna_Kampus.png" height="60" alt="..." title="">
                             {{-- <img class="navbar-brand" src="https://www.mirotakampus.com/resources/views/themes/plugin/images/logo.png" height="70" alt="CoolBrand"> --}}
                             {{-- <h1 class="display-1 mb-3 fw-bold text-white">Manna Kampus</h1> --}}
                             <p class="lead fw-normal mb-3 text-white fw-semibold animate__animated animate__fadeInLeft">Alternatif belanja berbagai macam produk dalam satu situs untuk memenuhi semua kebutuhan konsumen.</p>
                             <a class="btn btn-xl text-white animate__animated animate__fadeInLeft" style="background-color:#e77823;" href="https://www.mirotakampus.com/id">Belanja Sekarang!</a>
-                            {{-- <p class="lead fw-normal mb-2 text-white fw-semibold"><br><br>Tersedia di Android & IOs<br>Download Sekarang!<br><br>
-                                <a href="https://apps.apple.com/id/app/manna-kampus/id1584928138?l=id"><img class="app-badge" style="width: 145px;" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="..." /></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline"><img class="app-badge" style="width: 175px;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="..." /></a>
-                            </p> --}}
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div id="carouselExampleIndicators" class="carousel slide">
+                        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -56,6 +53,7 @@
             </div>
         </header>
     </div>
+</section>
 
     
     

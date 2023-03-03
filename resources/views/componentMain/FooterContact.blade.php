@@ -28,48 +28,49 @@
                         </div>
                         <div class="col"></div>
                     </div>
-                    <a class="nav-link text-start pb-2 fw-semibold" href="tel:0274566608"><i class="bi-telephone-fill pe-2 fw-2"></i>0274 566608</a>
-                    <a class="nav-link text-start pb-2 fw-semibold" href="mailto:humasmirotanayan@gmail.com"><i class="bi-envelope-fill pe-2 fw-2"></i>Humas Manna Kampus</a>
-                    <a class="nav-link text-start pb-2 fw-semibold" href="https://goo.gl/maps/cL6VVcJrd8zXNqaE9"><i class="bi-map-fill pe-2 fw-2"></i>Jl. C. Simanjuntak No.70, Yogyakarta</a>
+                    <a class="nav-link text-start pb-2 fw-semibold" id="foot" href="tel:0274566608"><i class="bi-telephone-fill pe-2 fw-2"></i>0274 566608</a>
+                    <a class="nav-link text-start pb-2 fw-semibold" id="foot" href="mailto:humasmirotanayan@gmail.com"><i class="bi-envelope-fill pe-2 fw-2"></i>Humas Manna Kampus</a>
+                    <a class="nav-link text-start pb-2 fw-semibold" id="foot" href="https://goo.gl/maps/cL6VVcJrd8zXNqaE9"><i class="bi-map-fill pe-2 fw-2"></i>Jl. C. Simanjuntak No.70, Yogyakarta</a>
                     <div class="text-start pt-2">
-                        <a href="https://apps.apple.com/id/app/manna-kampus/id1584928138?l=id"><img class="app-badge" style="width: 145px;" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="..." /></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline"><img class="app-badge" style="width: 175px;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="..." /></a>
+                        <a id="foot" href="https://apps.apple.com/id/app/manna-kampus/id1584928138?l=id"><img class="app-badge" style="width: 145px;" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="..." /></a>
+                        <a id="foot" href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline"><img class="app-badge" style="width: 175px;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="..." /></a>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-5 mb-lg-0 text-white">
+                <div class="col-lg-3 mb-1 mb-lg-0 text-white">
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Promosi</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
-                        <a class="nav-link text-start" href="bigevent">Big Event</a>
-                        <a class="nav-link text-start" href="katalogs">Katalog Jumat</a>
-                        <a class="nav-link text-start" href="katalogtanggalmuda">Katalog Tanggal Muda</a>
-                        <a class="nav-link text-start" href="katalogevent">Katalog Event</a>
+                        <a class="nav-link text-start" id="foot" href="bigevent">Big Event</a>
+                        <a class="nav-link text-start" id="foot" href="katalogs">Katalog Jumat</a>
+                        <a class="nav-link text-start" id="foot" href="katalogtanggalmuda">Katalog Tanggal Muda</a>
+                        <a class="nav-link text-start" id="foot" href="katalogevent">Katalog Event</a>
                     </p>
-                    <br><br>
+                    <br>
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Online Shopping</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
-                        <a class="nav-link text-start" href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline">Via Manna Kampus Online</a>
-                        <a class="nav-link text-start" href="#">Via Grabmart</a>
-                        <a class="nav-link text-start" href="https://www.blibli.com/merchant/mirota-kampus/MIK-60049">Via Blibli</a>
-                        <a class="nav-link text-start" href="https://shp.ee/ba7zgws">Via Shopee</a>
-                        <a class="nav-link text-start" href="https://www.lazada.co.id/shop/mirota-kampus/?">Via Lazada</a>
-                        <a class="nav-link text-start" href="https://tokopedia.link/mqDFke73ixb">Via Tokopedia</a>
+                        <a class="nav-link text-start" id="foot" href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline">Via Manna Kampus Online</a>
+                        <a class="nav-link text-start" id="foot" href="#">Via Grabmart</a>
+                        <a class="nav-link text-start" id="foot" href="https://www.blibli.com/merchant/mirota-kampus/MIK-60049">Via Blibli</a>
+                        <a class="nav-link text-start" id="foot" href="https://shp.ee/ba7zgws">Via Shopee</a>
+                        <a class="nav-link text-start" id="foot" href="https://www.lazada.co.id/shop/mirota-kampus/?">Via Lazada</a>
+                        <a class="nav-link text-start" id="foot" href="https://tokopedia.link/mqDFke73ixb">Via Tokopedia</a>
                     </p>
+                    <br>
                 </div>
                 <!-- Footer Location-->
-                <div class="col-lg-2 mb-5 mb-lg-0 text-white">
+                <div class="col-lg-2 mb-1 mb-lg-0 text-white">
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Karir</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
-                        <a class="nav-link text-start" href="infolowongan">Info Lowongan Kerja</a>
-                        <a class="nav-link text-start" href="hasiltest">Hasil Tes</a>
-                        <a class="nav-link text-start" href="event">Event</a>
-                        <a class="nav-link text-start" href="other">Other</a>
+                        <a class="nav-link text-start" id="foot" href="infolowongan">Info Lowongan Kerja</a>
+                        <a class="nav-link text-start" id="foot" href="hasiltest">Hasil Tes</a>
+                        <a class="nav-link text-start" id="foot" href="event">Event</a>
+                        <a class="nav-link text-start" id="foot" href="other">Other</a>
                     </p>
-                    <br><br>
+                    <br>
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Blog</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
-                        <a class="nav-link text-start" href="infopelanggan">Info Pelanggan</a>
-                        <a class="nav-link text-start" href="resepdapur">Resep Dapur</a>
-                        <a class="nav-link text-start" href="seputarproduk">Seputar Produk</a>
+                        <a class="nav-link text-start" id="foot" href="infopelanggan">Info Pelanggan</a>
+                        <a class="nav-link text-start" id="foot" href="resepdapur">Resep Dapur</a>
+                        <a class="nav-link text-start" id="foot" href="seputarproduk">Seputar Produk</a>
                     </p>
                 </div>
                 <!-- Footer Social Icons-->

@@ -29,29 +29,52 @@
             background-size: cover;
         }
 
+        .carousel {
+            border: 7px solid white;
+            border-radius: 5px;
+        }
+
+        .carousel-item-start, .active {
+            /* display: contents !important;  */
+            transition: -webkit-transform 0.2s ease;
+            transition: transform 0.2s ease;
+            transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+            -webkit-backface-visibility: visible;
+                    backface-visibility: visible;
+        }
+        
+        #logo {
+            background-color: white;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 0;
+        }
+
+        #logo:hover {
+            background-color: white;
+            color: white;
+        }
+
         .navbar a {
             display: block;
             color: rgb(0, 0, 0);
             text-align: start;
-            padding: 10px 30px;
+            padding-top: 10px
             text-decoration: none;
             border-radius: 8px;
-            margin-left: 2.5px;
-            margin-right: 2.5px;
+            margin: 2.5px;
         }
         
         .navbar a:hover {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
             border-radius: 8px;
-            margin-left: 2.5px;
-            margin-right: 2.5px;
+            margin: 2.5px;
         }
 
         .navbar a.active {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
-            transition: 10s;
         }
 
         .dropdown:hover .dropdown-menu {
@@ -63,11 +86,9 @@
                 background-color: #666;
                 color: #ffffff;
             }
-        }
-
-        .carousel {
-            border: 7px solid white;
-            border-radius: 5px;
+            #judul {
+                text-align: center !important;
+            }
         }
 
         /* Social Media Icon */
@@ -136,7 +157,15 @@
         .nav a.active {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
-        } 
+        }
+
+        .dropdown-menu {
+            border-radius: 7px;
+        }
+
+        #foot {
+            padding: 0.1rem !important;
+        }
 
         /* Side Navbar Admin Menu */
         .sidenav {
