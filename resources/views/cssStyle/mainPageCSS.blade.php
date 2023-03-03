@@ -33,15 +33,6 @@
             border: 7px solid white;
             border-radius: 5px;
         }
-
-        .carousel-item-start, .active {
-            /* display: contents !important;  */
-            transition: -webkit-transform 0.2s ease;
-            transition: transform 0.2s ease;
-            transition: transform 0.2s ease, -webkit-transform 0.2s ease;
-            -webkit-backface-visibility: visible;
-                    backface-visibility: visible;
-        }
         
         #logo {
             background-color: white;
@@ -157,18 +148,6 @@
         .nav a.active {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
-        }
-
-        .dropdown-toggle:hover {
-            color: white;
-        }
-
-        .dropdown-menu {
-            border-radius: 7px;
-        }
-
-        #foot {
-            padding: 0.1rem !important;
         }
 
         /* Side Navbar Admin Menu */
