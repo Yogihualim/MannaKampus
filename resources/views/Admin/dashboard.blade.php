@@ -58,8 +58,8 @@
         </div>
     </div> --}}
   {{--  --}}
-  <div class="row">
-    <div class="col-lg-3 d-block" style="height:100%">
+  <div class="row g-0">
+    <div class="col-lg-3" style="height:100%">
         <div class="sidenav">
             <img class="img ps-3 py-3" src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="border-radius: 50%; max-width:20%;">
             <h6 class="ps-3 text-white">
@@ -78,12 +78,12 @@
             </a>
       </div>
     </div>
-    <div class="col-lg-8">
+    <div class="col-lg-9">
       <div class="container">
           @yield('1.ktg_Jumat')
       </div>
     </div>
-    <footer class="bg-light py-2" style="flex-shrink: none; height:100%; position:statis;">
+    <footer class="bg-light py-2">
         <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Mirota Kampus. All Rights Reserved.</div></div>
     </footer>
   </div>
