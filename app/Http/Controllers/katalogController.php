@@ -6,7 +6,6 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
-// use App\Http\Controllers\katalogController;
 use App\Models\ktg_Jumat;
 
 class katalogController extends Controller

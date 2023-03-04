@@ -10,91 +10,83 @@
     @include('cssStyle.mainPageCSS')
 </head>
 <body>
-  <!-- Navbar -->
-<nav class="main-header navbar navbar-expand navbar-white navbar-light">
-  <!-- Left navbar links -->
-  <ul class="navbar-nav d-flex">
-    <li class="nav-item">
-      <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fa fa-bars"></i></a>
-    </li>
-    <li class="nav-item d-none d-sm-inline-block">
-      <a href="index3.html" class="nav-link">Home</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Help
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-        <a class="dropdown-item" href="#">FAQ</a>
-        <a class="dropdown-item" href="#">Support</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Contact</a>
-      </div>
-    </li>
-  </ul>
+    {{-- <div class="container">
+        <div class="col-md-12">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-4" aria-expanded="false">
+                            <span class="fa fa-instagram">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
 
-</nav>
-<!-- /.navbar -->
+                        <a class="navbar-brand" href="admin">Home</a>
+                    </div>
 
-  <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-3">
-    <!-- Brand Logo -->
-    <a href="#" class="brand-link">
-      <img src="public/Logo_Tulisan_Manna_Kampus.png" alt="AdminLTE Logo" class="brand-image"
-          style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
-    </a>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-user"></i>
+                                    {{ Auth::user()->name }}
+                                    <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a>Level: {{ Auth::user()->role }}</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="{{ route('logoutaksi') }}">
+                                            <i class="fa fa-power-off"></i>
+                                            Log Out
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            @yield('1.ktg_Jumat')
+
         </div>
-        <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
-        </div>
-      </div>
-
-      <!-- Sidebar Menu -->
-      <nav class="mt-2">
+    </div> --}}
+  {{--  --}}
+  <div class="row">
+    <div class="col-lg-3 d-block" style="height:100%">
         <div class="sidenav">
-            <a href="#about">About</a>
+            <img class="img ps-3 py-3" src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="border-radius: 50%; max-width:20%;">
+            <h6 class="ps-3 text-white">
+                <p>Nama: {{ Auth::user()->name }}
+                <br>
+                Email: {{ Auth::user()->email }}</p>
+            </h6>
+        <hr>
+            <a href="katalog_jumat">Katalog Jumat</a>
             <a href="#services">Services</a>
             <a href="#clients">Clients</a>
             <a href="#contact">Contact</a>
-        </div>
-      </nav>
-      <!-- /.sidebar-menu -->
-    </div>
-    <!-- /.sidebar -->
-  </aside>
-
-  {{--  --}}
-  {{-- <div class="row">
-    <div class="col-lg-3">
-      <div class="sidenav">
-        <a class="img-icon" href="#">
-          <img class="img ps-3 py-3" src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="border-radius: 50%; max-width:30%;">
-          <i>Login</i>
-        </a>
-        <hr>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#clients">Clients</a>
-          <a href="#contact">Contact</a>
-      </div>      
+            <a href="{{ route('logoutaksi') }}">
+                <i class="fa fa-power-off"></i>
+                Log Out
+            </a>
+      </div>
     </div>
     <div class="col-lg-8">
       <div class="container">
           @yield('1.ktg_Jumat')
       </div>
     </div>
-    <footer class="bg-light py-2">
+    <footer class="bg-light py-2" style="flex-shrink: none; height:100%; position:statis;">
         <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Mirota Kampus. All Rights Reserved.</div></div>
     </footer>
-  </div> --}}
+  </div>
 
 </body>
 </html>

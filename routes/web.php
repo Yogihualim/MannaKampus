@@ -1,10 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\MapController;
+use App\Http\Controllers\admin_Controller;
 use App\Http\Controllers\ktgJumat_Controller;
 use App\Http\Controllers\katalogController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +19,12 @@ use App\Http\Controllers\katalogController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/admin', [admin_Controller::class, 'login'])->name('login');
+Route::post('loginaksi',[admin_Controller::class, 'loginaksi'])->name('loginaksi');
+Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
+Route::get('logoutaksi', [admin_Controller::class, 'logoutaksi'])->name('logoutaksi')->middleware('auth');
+Route::resource('/katalog_jumat', ktgJumat_Controller::class)->middleware('auth');
 
 // Route Testing
 Route::get('/test', function () {
@@ -83,11 +92,6 @@ Route::get('/katalogevent', function () {
     return view('componentPromosi.KatalogEvent');
 });
 
-// Route ke situs admin
-Route::get('/admin', function () {
-    return view('Admin.AdminHome');
-});
-
 // Route Masing-masing lokasi
 // Route::get('/lokasi', function () {
 //     return view('componentLokasi.LokasiDetail');
@@ -126,5 +130,5 @@ Route::get('/10', function () {
 
 // Route Pakai Controller
 // Route::get('/lokasi', [MapController::class, 'index']);
-Route::resource('/katalog_jumat', ktgJumat_Controller::class);
+
 Route::resource('/katalogs', katalogController::class);
