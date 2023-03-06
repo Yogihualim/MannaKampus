@@ -22,7 +22,8 @@
             </h6>
         <hr>
             <a href="katalog_jumat">Katalog Jumat</a>
-            <a href="katalog_tanggalmuda">Katalog Tanggal Muda</a>
+            <a href="katalog_tanggal_muda">Katalog Tanggal Muda</a>
+            <a href="katalog_event">Katalog Event</a>
             <a href="{{ route('logoutaksi') }}">
                 <i class="fa fa-power-off"></i>
                 Log Out

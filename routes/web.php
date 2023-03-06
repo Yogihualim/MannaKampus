@@ -7,6 +7,7 @@ use App\Http\Controllers\MapController;
 use App\Http\Controllers\admin_Controller;
 use App\Http\Controllers\ktgJumat_Controller;
 use App\Http\Controllers\ktgTanggalMuda_Controller;
+use App\Http\Controllers\ktgEvent_Controller;
 use App\Http\Controllers\katalogController;
 use App\Http\Controllers\DashboardController;
 
@@ -20,16 +21,21 @@ use App\Http\Controllers\DashboardController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+// Bagian Login Controller
 Route::get('/admin', [admin_Controller::class, 'login'])->name('login');
 Route::post('loginaksi',[admin_Controller::class, 'loginaksi'])->name('loginaksi');
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
 Route::get('logoutaksi', [admin_Controller::class, 'logoutaksi'])->name('logoutaksi')->middleware('auth');
+
+// Controller untuk halaman admin
 Route::resource('/katalog_jumat', ktgJumat_Controller::class)->middleware('auth');
 Route::resource('/katalog_tanggal_muda', ktgTanggalMuda_Controller::class)->middleware('auth');
+Route::resource('/katalog_event', ktgEvent_Controller::class)->middleware('auth');
 
+// Untuk menampilkan pada halaman website
 Route::get('/katalogjumat', [katalogController::class, 'index']);
 Route::get('/katalogtanggalmuda', [katalogController::class, 'index2']);
+Route::get('/katalogevent', [katalogController::class, 'index3']);
 
 // Route Testing
 Route::get('/test', function () {

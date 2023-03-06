@@ -27,4 +27,11 @@ class katalogController extends Controller
         // dd($katalog_tanggal_muda);
         return view('componentPromosi.KatalogTanggalMuda', compact('katalog_tanggal_muda'));
     }
+
+    public function index3()
+    {
+        $katalog_event = ktg_Event::orderBy('id', 'Asc')->get();
+        // dd($katalog_tanggal_muda);
+        return view('componentPromosi.KatalogEvent', compact('katalog_event'));
+    }
 }
