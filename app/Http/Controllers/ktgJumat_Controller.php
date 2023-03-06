@@ -39,7 +39,7 @@ class ktgJumat_Controller extends Controller
             'image_katalog_J' => 'required|file|image|mimes:jpeg,png,jpg|max:2048'
         ]);
         $file = $request->file('image_katalog_J');
-        $file->move('public/katalogs',$file->getClientOriginalName());
+        $file->move('public/katalogJumat',$file->getClientOriginalName());
         $katalog_jumat = array(
             'nama_katalog_jumat' => $request->nama_katalog_jumat,
             'image_katalog_J' => $file->getClientOriginalName()

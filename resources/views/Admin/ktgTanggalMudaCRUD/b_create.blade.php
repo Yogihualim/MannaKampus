@@ -2,10 +2,10 @@
 @section('Katalogs')
 <div class="d-flex justify-content-between mt-5 mb-5">
     <div>
-        <h2>Buat Katalog Jumat Baru</h2>
+        <h2>Buat Katalog Tanggal Muda Baru</h2>
     </div>
     <div>
-        <a href="{{ route('katalog_jumat.index') }}" class="btn btn-secondary">Back</a>
+        <a href="{{ route('katalog_tanggal_muda.index') }}" class="btn btn-secondary">Back</a>
     </div>
 </div>
 
@@ -20,14 +20,14 @@
     </div>
 @endif
 
-<form action="{{ route('katalog_jumat.store') }}" method="POST" enctype="multipart/form-data">
+<form action="{{ route('katalog_tanggal_muda.store') }}" method="POST" enctype="multipart/form-data">
     @csrf
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Nama Katalog Jumat:</strong>
-                <input type="text" name="nama_katalog_jumat" class="form-control" placeholder="katalog Name">
-                <b>File Gambar</b><br/><input type="file" class="form-control" name="image_katalog_J">
+                <strong>Nama Katalog Tanggal Muda:</strong>
+                <input type="text" name="nama_katalog_tanggal_muda" class="form-control" placeholder="Nama Katalog">
+                <b>File Gambar</b><br/><input type="file" class="form-control" name="image_katalog_TM">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 mt-5 text-center">
@@ -36,3 +36,4 @@
     </div>
 </form>
 @endsection
+

@@ -26,7 +26,7 @@
                         <a class="nav-link dropdown-toggle ps-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Promosi</a>
                         <ul class="dropdown-menu px-3">
                             <li><a class="dropdown-item" href="bigevent"><i class="bi-exclamation-octagon pe-2 fw-2"></i>Big Event</a></li>
-                            <li><a class="dropdown-item" href="katalogs"><i class="bi-calendar2-day pe-2 fw-2"></i>Katalog Jumat</a></li>
+                            <li><a class="dropdown-item" href="katalogjumat"><i class="bi-calendar2-day pe-2 fw-2"></i>Katalog Jumat</a></li>
                             <li><a class="dropdown-item" href="katalogtanggalmuda"><i class="bi-grid-fill pe-2 fw-2"></i>Katalog Tanggal Muda</a></li>
                             <li><a class="dropdown-item" href="katalogevent"><i class="bi-grid-fill pe-2 fw-2"></i>Katalog Event</a></li>
                         </ul>

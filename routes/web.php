@@ -6,6 +6,7 @@ use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\MapController;
 use App\Http\Controllers\admin_Controller;
 use App\Http\Controllers\ktgJumat_Controller;
+use App\Http\Controllers\ktgTanggalMuda_Controller;
 use App\Http\Controllers\katalogController;
 use App\Http\Controllers\DashboardController;
 
@@ -25,6 +26,10 @@ Route::post('loginaksi',[admin_Controller::class, 'loginaksi'])->name('loginaksi
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
 Route::get('logoutaksi', [admin_Controller::class, 'logoutaksi'])->name('logoutaksi')->middleware('auth');
 Route::resource('/katalog_jumat', ktgJumat_Controller::class)->middleware('auth');
+Route::resource('/katalog_tanggal_muda', ktgTanggalMuda_Controller::class)->middleware('auth');
+
+Route::get('/katalogjumat', [katalogController::class, 'index']);
+Route::get('/katalogtanggalmuda', [katalogController::class, 'index2']);
 
 // Route Testing
 Route::get('/test', function () {
@@ -85,9 +90,9 @@ Route::get('/bigevent', function () {
 // Route::get('/katalogjumat', function () {
 //     return view('componentPromosi.KatalogJumat');
 // });
-Route::get('/katalogtanggalmuda', function () {
-    return view('componentPromosi.KatalogTanggalMuda');
-});
+// Route::get('/katalogtanggalmuda', function () {
+//     return view('componentPromosi.KatalogTanggalMuda');
+// });
 Route::get('/katalogevent', function () {
     return view('componentPromosi.KatalogEvent');
 });
@@ -131,4 +136,4 @@ Route::get('/10', function () {
 // Route Pakai Controller
 // Route::get('/lokasi', [MapController::class, 'index']);
 
-Route::resource('/katalogs', katalogController::class);
+

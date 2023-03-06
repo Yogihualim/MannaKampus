@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
 use App\Models\ktg_Jumat;
+use App\Models\ktg_Tanggal_Muda;
 
 class katalogController extends Controller
 {
@@ -20,51 +21,10 @@ class katalogController extends Controller
         return view('componentPromosi.KatalogJumat', compact('katalog_jumat'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
+    public function index2()
     {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show( $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit( $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request,$id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy($id)
-    {
-        //
+        $katalog_tanggal_muda = ktg_Tanggal_Muda::orderBy('id', 'Asc')->get();
+        // dd($katalog_tanggal_muda);
+        return view('componentPromosi.KatalogTanggalMuda', compact('katalog_tanggal_muda'));
     }
 }

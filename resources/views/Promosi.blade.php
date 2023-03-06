@@ -30,7 +30,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('katalogs')}}">
+                            <a class="nav-link" id="Act" href="{{url('katalogjumat')}}">
                                 <i class="bi-calendar2-day pe-2 fw-2"></i>
                                 Katalog Jumat
                             </a>
@@ -59,10 +59,10 @@
 
     {{-- Button To Top --}}
     @include('component.ButtonToTop')
-    
+
     {{-- Contact Us --}}
     @include('componentMain.FooterContact')
-    
+
     {{-- Footer --}}
     @include('component.Footer')
 </body>

@@ -29,7 +29,7 @@ class admin_Controller extends Controller
         if (Auth::attempt($data)) {
             return redirect('dashboard');
         } else {
-            Session::flash('erroe', 'Email atau Password Salah! Coba Lagi');
+            Session::flash('error', 'Email atau Password Salah! Coba Lagi');
             return redirect('/admin');
         }
     }
