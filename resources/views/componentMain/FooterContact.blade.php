@@ -14,7 +14,7 @@
                     {{-- <p class="btn btn-outline-light btn-social mx-1" href="#!"><i class="bi bi-whatsapp"></i></a> --}}
                 </div>
             </div>
-            
+
             <hr class="divider text-white" />
             <div class="row">
                 <!-- Footer Location-->
@@ -46,7 +46,7 @@
                     </p>
                     <br>
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Online Shopping</h4>
-                    <p class="lead mb-0 text-start fs-6 fw-semibold">
+                    <p class="lead mb-0 text-start pb-3 fs-6 fw-semibold">
                         <a class="nav-link text-start" href="https://play.google.com/store/apps/details?id=com.mirotakampus.mkonline">Via Manna Kampus Online</a>
                         <a class="nav-link text-start" href="#">Via Grabmart</a>
                         <a class="nav-link text-start" href="https://www.blibli.com/merchant/mirota-kampus/MIK-60049">Via Blibli</a>
@@ -73,7 +73,7 @@
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
-                
+
                 <!-- Footer About Text-->
                 {{-- <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-3 fs-5 fw-bold text-white">Customer Care</h4>

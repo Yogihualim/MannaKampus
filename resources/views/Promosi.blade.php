@@ -49,6 +49,7 @@
                             </a>
                         </li>
                     </div>
+                    <br>
                 </div>
                 <div class="col-lg-9 col-md-6 text-start">
                     @yield('contentPromosi')

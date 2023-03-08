@@ -43,6 +43,7 @@
                             </a>
                         </li>
                     </div>
+                    <br>
                 </div>
                 <div class="col-lg-9 col-md-6 text-start">
                     @yield('contentBlog')
@@ -50,13 +51,13 @@
             </div>
         </h5>
     </div>
-    
+
     {{-- Button To Top --}}
     @include('component.ButtonToTop')
-    
+
     {{-- Contact Us --}}
     @include('componentMain.FooterContact')
-    
+
     {{-- Footer --}}
     @include('component.Footer')
 </body>
