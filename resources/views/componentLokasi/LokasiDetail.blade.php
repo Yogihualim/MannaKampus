@@ -16,7 +16,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Babarsari</h4>
-                        <p class="card-text">Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
+                        <p class="card-text pb-1">Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
                         <hr>
                         <a href="1" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -29,7 +29,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus C. Simanjuntak</h4>
-                        <p class="card-text">Jl. C. Simanjuntak No.70, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223</p>
+                        <p class="card-text pb-4">Jl. C. Simanjuntak No.70, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223</p>
                         <hr>
                         <a href="2" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -42,7 +42,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus M. Supeno</h4>
-                        <p class="card-text">Jl. Menteri Supeno No.38, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</p>
+                        <p class="card-text pb-4">Jl. Menteri Supeno No.38, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</p>
                         <hr>
                         <a href="3" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -55,7 +55,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Palagan</h4>
-                        <p class="card-text">Jl. Palagan Tentara Pelajar No.31, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>
+                        <p class="card-text pb-1">Jl. Palagan Tentara Pelajar No.31, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>
                         <hr>
                         <a href="4" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -68,7 +68,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Godean</h4>
-                        <p class="card-text">Jl. Godean No.KM. 2.8, Ngestiharjo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184</p>
+                        <p class="card-text pb-4">Jl. Godean No.KM. 2.8, Ngestiharjo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184</p>
                         <hr>
                         <a href="5" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -81,7 +81,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Imogiri</h4>
-                        <p class="card-text">Jl. Imogiri Tim. No.KM. 7, Grojogan, Wirokerten, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55194</p>
+                        <p class="card-text pb-1">Jl. Imogiri Tim. No.KM. 7, Grojogan, Wirokerten, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55194</p>
                         <hr>
                         <a href="6" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -94,7 +94,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Mini Pelemsewu</h4>
-                        <p class="card-text">Jl. Pelemsewu No.C 1, Pandes, Panggungharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188</p>
+                        <p class="card-text pb-1">Jl. Pelemsewu No.C 1, Pandes, Panggungharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188</p>
                         <hr>
                         <a href="7" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -107,7 +107,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Mini Diro</h4>
-                        <p class="card-text">Jl. Bantul No.8, Diro, Pendowoharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55186</p>
+                        <p class="card-text pb-4">Jl. Bantul No.8, Diro, Pendowoharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55186</p>
                         <hr>
                         <a href="8" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -120,7 +120,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Mini Minomartani</h4>
-                        <p class="card-text">Jl. Kakap Raya, RT.019/RW.004, Mladangan, Minomartani, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>
+                        <p class="card-text pb-1">Jl. Kakap Raya, RT.019/RW.004, Mladangan, Minomartani, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>
                         <hr>
                         <a href="9" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
@@ -133,7 +133,7 @@
                     <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                     <div class="card-body">
                         <h4 class="card-title">Manna Kampus Peralatan Rumah Tangga</h4>
-                        <p class="card-text">Jl. C. Simanjuntak no. 64, Terban, Gondokusuman, Yogyakarta 55223</p>
+                        <p class="card-text pb-4">Jl. C. Simanjuntak no. 64, Terban, Gondokusuman, Yogyakarta 55223</p>
                         <hr>
                         <a href="10" class="btn ps-2"><i class="bi-three-dots-vertical pe-2 fw-2"></i>Selengkapnya</a>
                     </div>
