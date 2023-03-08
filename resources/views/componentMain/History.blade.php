@@ -1,13 +1,15 @@
 {{-- Bagian History --}}
     <section class="page-section p-5 bg-white">
         <br id="about">
+        <h4 class="display-5 lh-1 mb-3 text-center fw-semibold">Visi & Misi</h4>
+        <br>
         <div class="row">
-            <div class="col-lg-5 text-center">
-                <img class="animate__animated animate__fadeInBottomLeft" src="public/user-interface.png" alt="" style="max-width:80%">
+            <div class="col-lg-5 text-center position-relative">
+                <img id="sejarahMain" class="animate__animated animate__fadeInBottomLeft" src="public/user-interface.png" alt="" style="max-width:80%;">
                 <br><br>
             </div>
             <div class="col-lg-7">
-                <h4 class="display-5 lh-1 mb-3 text-center fw-semibold">Visi & Misi</h4>
+
                 <br>
                 {{-- Visi Mirota Kampus --}}
                 <div class="container px-4 px-lg-5">
@@ -15,8 +17,8 @@
                         <div class="col-lg-8 text-start">
                             <h2 class="mt-0">Visi Manna Kampus</h2>
                             <hr class="divider divider-light" />
-                            <p class="text-white-75 mb-4">"Menjadikan Manna Kampus sebagai rumah belanja yang bernuansa kekeluargaan, dengan memberikan layanan yang ramah, 
-                                                            cepat dan tepat, produk yang berkualitas, harga yang murah, dan fasilitas yang nyaman serta aman sehingga 
+                            <p class="text-white-75 mb-4">"Menjadikan Manna Kampus sebagai rumah belanja yang bernuansa kekeluargaan, dengan memberikan layanan yang ramah,
+                                                            cepat dan tepat, produk yang berkualitas, harga yang murah, dan fasilitas yang nyaman serta aman sehingga
                                                             Manna Kampus mempunyai nilai lebih dan dapat dipercaya oleh masyarakat Yogyakarta."</p>
                             {{-- <a class="btn btn-light btn-xl" href="/AboutUs">Get Started!</a> --}}
                         </div>
@@ -48,5 +50,5 @@
                 <br>
             </div>
         </div>
-        
+
     </section>

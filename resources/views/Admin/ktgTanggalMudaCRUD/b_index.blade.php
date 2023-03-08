@@ -42,7 +42,7 @@
         @endforeach
         @else
         <tr>
-            <td align="center" colspan="4">Empty data!!! Have a nice day :)</td>
+            <td align="center" colspan="4">Data Kosong!!! Have a nice day :)</td>
         </tr>
         @endif
     </table>

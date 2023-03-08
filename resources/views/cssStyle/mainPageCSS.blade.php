@@ -182,12 +182,21 @@
             padding-left: 25px;
         }
 
+        #sejarahMain {
+            padding-top: 90px;
+        }
+
         @media screen and (max-width: 400px){
             .sidenav {
                 width: 100%;
                 height: 20%;
             }
+            #sejarahMain {
+                padding-top: 10px !important;
+            }
         }
+
+
     </style>
 
     <script>

@@ -40,9 +40,6 @@
         </div>
     </footer>
 
-    {{-- Owl Carousel --}}
-    @include('componentMain.owlCard')
-
     {{-- Footer Contact Us --}}
     @include('componentMain.FooterContact')
 
