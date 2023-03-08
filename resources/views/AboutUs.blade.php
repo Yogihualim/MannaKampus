@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Us Page</title>
-    
+
     @include('assets.scriptLink')
     @include('cssStyle.mainPageCSS')
 </head>
@@ -30,13 +30,15 @@
                             <a class="nav-link" id="Act" href="{{url('visimisi')}}"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('1')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
+                            <a class="nav-link" id="Act" href="{{url('lokasi')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
                         </li>
+
                         {{-- <hr class="mx-3"/>
                         <li class="nav-item">
                             <a class="nav-link" id="Act" href="{{url('customercare')}}"><i class="bi-person-exclamation pe-2 fw-2"></i>Customer Care</a>
                         </li> --}}
                     </div>
+                    <br>
                 </div>
                 <div class="col-lg-9 col-md-6 text-start">
                     @yield('aboutUs')
@@ -59,16 +61,16 @@
                         <li class="list-group-item">9. Manna Kampus Mini Diro (Jl. Bantul No.8, Diro, Bantul)</li>
                         <li class="list-group-item">10. Manna Kampus Mini Minomartani (Jl. Kakap Raya, RT.019/RW.004, Minomartani, Sleman)</li>
                     </ul> --}}
-                    
-                
+
+
             {{-- </div> --}}
         {{-- </div> --}}
-        
+
     </div>
 
     {{-- Button To Top --}}
     @include('component.ButtonToTop')
-    
+
     {{-- Contact Us --}}
     @include('componentMain.FooterContact')
 

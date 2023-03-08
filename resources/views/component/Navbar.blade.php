@@ -19,7 +19,7 @@
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="aboutus"><i class="bi-archive pe-2 fw-2"></i>Sejarah</a></li>
                             <li><a class="dropdown-item" href="visimisi"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a></li>
-                            <li><a class="dropdown-item" href="1"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a></li>
+                            <li><a class="dropdown-item" href="lokasi"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">

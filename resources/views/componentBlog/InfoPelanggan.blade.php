@@ -1,6 +1,28 @@
 @extends('Blog')
 
 @section('contentBlog')
-    <br>
-    <img class="img" src="public/maintenance/UM3.png" width="70%" alt="..." title="">
+    <div class="row">
+        <div class="col-lg-4 col-md-3">
+            <div class="card px-4 pb-4">
+                <br>
+                <img class="img" src="public/maintenance/UM3.png" style="height:40%; width:100%;" alt="..." title="">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-3">
+            <div class="card px-4 pb-4">
+                <br>
+                <img class="img" src="public/maintenance/UM3.png" style="height:40%; width:100%;" alt="..." title="">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Some example text.</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

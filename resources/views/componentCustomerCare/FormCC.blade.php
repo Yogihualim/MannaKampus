@@ -24,51 +24,72 @@
         <div class="row">
             <div class="col-lg-6 mb-lg-0">
                 <img class="img ps-4 pt-4" src="public/maintenance/UM3.png" width="90%" alt="..." title="">
-                
+
                 {{-- <img src="{{ URL::asset('1.png') }}" alt="..." title=""> --}}
             </div>
             <div class="col-lg-6 mb-5 mb-lg-4">
-                <form>
+                <form method="post" action="{{ route('postDataCus') }}" enctype="multipart/form-data">
+                    @csrf
                     <h2 class="mt-2">Customer Care</h2>
                     <!-- Name input -->
                     <div class="form-floating mb-3 mt-3">
-                        <input type="form-control" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input name="name_cus" type="form-control" class="form-control" id="floatingInput" placeholder="Nama">
                         <label for="floatingInput">Nama Lengkap</label>
                     </div>
 
                     <!-- Email input -->
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input name="email_cus" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput">Email address</label>
                     </div>
 
                     {{-- Cabang Input --}}
                     <div class="form-floating mb-3">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                            <option selected>1. Manna Kampus Babarsari</option>
-                            <option value="2">2. Manna Kampus C. Simanjuntak</option>
-                            <option value="3">3. Manna Kampus M. Supeno</option>
-                            <option value="4">4. Manna Kampus Palagan</option>
-                            <option value="5">5. Manna Kampus Godean</option>
-                            <option value="6">6. Manna Kampus Imogiri</option>
-                            <option value="7">7. Manna Kampus Peralatan Rumah Tangga</option>
-                            <option value="8">8. Manna Kampus Mini Pelemsewu</option>
-                            <option value="9">9. Manna Kampus Mini Diro</option>
-                            <option value="10">10. Manna Kampus Mini Minomartani</option>
+                        <select name="pilih_cabang[]" class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected value="MK Babarsari">
+                                1. Manna Kampus Babarsari
+                            </option>
+                            <option value="MK C.Simanjuntak">
+                                2. Manna Kampus C. Simanjuntak
+                            </option>
+                            <option value="MK M.Supeno">
+                                3. Manna Kampus M. Supeno
+                            </option>
+                            <option value="MK Palagan">
+                                4. Manna Kampus Palagan
+                            </option>
+                            <option value="MK Godean">
+                                5. Manna Kampus Godean
+                            </option>
+                            <option value="MK Imogiri">
+                                6. Manna Kampus Imogiri
+                            </option>
+                            <option value="MK Peralatan Rumah Tangga">
+                                7. Manna Kampus Peralatan Rumah Tangga
+                            </option>
+                            <option value="MK Mini Pelemsewu">
+                                8. Manna Kampus Mini Pelemsewu
+                            </option>
+                            <option value="MK Mini Diro">
+                                9. Manna Kampus Mini Diro
+                            </option>
+                            <option value="MK Mini Minomartani">
+                                10. Manna Kampus Mini Minomartani
+                            </option>
                         </select>
                         <label for="floatingSelect">Pilih Cabang</label>
                     </div>
 
                     {{-- Cabang Input --}}
                     <div class="form-floating mb-3">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                            <option selected>Layanan</option>
-                            <option value="2">Fasilitas</option>
-                            <option value="3">Harga</option>
-                            <option value="4">Produk</option>
-                            <option value="5">Karyawan</option>
-                            <option value="6">Promo</option>
-                            <option value="7">Lain-lain</option>
+                        <select name="keluhan[]" class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected value="Layanan">Layanan</option>
+                            <option value="Fasilitas">Fasilitas</option>
+                            <option value="Harga">Harga</option>
+                            <option value="Produk">Produk</option>
+                            <option value="Karyawan">Karyawan</option>
+                            <option value="Promo">Promo</option>
+                            <option value="Lain-lain">Lain-lain</option>
                         </select>
                         <label for="floatingSelect">Kategori Keluhan</label>
                     </div>
@@ -79,7 +100,7 @@
                         <label for="floatingTextarea2">Pesan</label>
                     </div>
 
-                    
+
 
                     <!-- Checkbox -->
                     {{-- <div class="form-check d-flex justify-content-center mb-4">

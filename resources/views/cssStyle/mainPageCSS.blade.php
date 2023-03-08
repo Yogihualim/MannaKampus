@@ -3,7 +3,7 @@
         .parallax {
             /* The image used */
             background-image:url(https://www.mirotakampus.com/resources/views/admin/images/5dd1acbf63083);
-            
+
             /* Set a specific height */
             min-height: 500px;
 
@@ -16,12 +16,12 @@
 
         .parallax1 {
             /* The image used */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.8)) , 
+            background-image: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.8)) ,
             url(https://lh5.googleusercontent.com/p/AF1QipNvq4_xfJzxOl3Z1DwioNViJL5FTb0SSxOdaYCF=w525-h240-k-no);
             /* Set a specific height */
             min-height: 325px;
             font-weight: bold;
-            
+
             /* Create the parallax scrolling effect */
             background-attachment: fixed;
             background-position: center;
@@ -33,7 +33,7 @@
             border: 7px solid white;
             border-radius: 5px;
         }
-        
+
         #logo {
             background-color: white;
             color: white;
@@ -55,7 +55,7 @@
             border-radius: 8px;
             margin: 2.5px;
         }
-        
+
         .navbar a:hover {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
@@ -79,6 +79,10 @@
             }
             #judul {
                 text-align: center !important;
+            }
+            #googleMap {
+                width: 100px;
+                height: 200px;
             }
         }
 
@@ -124,7 +128,7 @@
 
         .fa-instagram {
             color: white;
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
             background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         }
 
@@ -177,7 +181,7 @@
             border-radius: 7px;
             padding-left: 25px;
         }
-        
+
         @media screen and (max-width: 400px){
             .sidenav {
                 width: 100%;
@@ -187,5 +191,5 @@
     </style>
 
     <script>
-        
+
     </script>
