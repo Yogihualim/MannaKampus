@@ -14,5 +14,4 @@ class ktg_Jumat extends Model
         'nama_katalog_jumat',
         'image_katalog_J'
     ];
-
 }

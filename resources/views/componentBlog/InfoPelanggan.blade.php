@@ -1,6 +1,11 @@
 @extends('Blog')
 
 @section('contentBlog')
+    <ul class="breadcrumb text-dark ps-2">
+        <li class="breadcrumb-item"><a href="id">Home</a></li>
+        <li class="breadcrumb-item active"><u>Info Pelanggan</u></li>
+    </ul>
+    <hr>
     <div class="row">
         <div class="col-lg-4 col-md-3">
             <div class="card px-4 pb-4">

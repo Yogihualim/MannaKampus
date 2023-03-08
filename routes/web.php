@@ -23,6 +23,12 @@ use App\Http\Controllers\CustomerCare_Controller;
 |
 */
 // ------------------------------------------------------------
+// Route Pakai View
+Route::get('/id', function () {
+    return view('Homepage');
+});
+
+// ------------------------------------------------------------
 // Bagian Login Controller
 Route::get('/admin', [admin_Controller::class, 'login'])->name('login');
 Route::post('loginaksi',[admin_Controller::class, 'loginaksi'])->name('loginaksi');
@@ -40,6 +46,8 @@ Route::resource('/katalog_event', ktgEvent_Controller::class)->middleware('auth'
 Route::get('/katalogjumat', [katalogController::class, 'index']);
 Route::get('/katalogtanggalmuda', [katalogController::class, 'index2']);
 Route::get('/katalogevent', [katalogController::class, 'index3']);
+Route::get('/bigevent', [katalogController::class, 'index4']);
+
 
 // ------------------------------------------------------------
 // Customer Care Controller
@@ -47,87 +55,7 @@ Route::get('/cusCreate',[CustomerCare_Controller::class, 'postCus']);
 Route::post('/postDataCus',[CustomerCare_Controller::class, 'postDataCus'])->name('postDataCus');
 
 // ------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-// Route Testing
-Route::get('/test', function () {
-    return view('welcome');
-});
-Route::get('/Dump', function () {
-    return view('Trial.trial');
-});
-
-// Route Pakai View
-Route::get('/id', function () {
-    return view('Homepage');
-});
-Route::get('/id2', function () {
-    return view('Mainpage');
-});
-
-// Component ekstensi halaman Contact Us
-Route::get('/aboutus', function () {
-    return view('componentAboutUs.Sejarah');
-});
-Route::get('/visimisi', function () {
-    return view('componentAboutUs.VisiMisi');
-});
-Route::get('/customercare', function () {
-    return view('componentCustomerCare.FormCC');
-});
-
-// Component ekstensi halaman Karir
-Route::get('/infolowongan', function () {
-    return view('componentKarir.InfoLowongan');
-});
-Route::get('/hasiltest', function () {
-    return view('componentKarir.HasilTest');
-});
-Route::get('/event', function () {
-    return view('componentKarir.Event');
-});
-Route::get('/other', function () {
-    return view('componentKarir.Other');
-});
-
-// Component Blog
-Route::get('/infopelanggan', function () {
-    return view('componentBlog.InfoPelanggan');
-});
-Route::get('/resepdapur', function () {
-    return view('componentBlog.ResepDapur');
-});
-Route::get('/seputarproduk', function () {
-    return view('componentBlog.SeputarProduk');
-});
-
-// Component Promosi
-Route::get('/bigevent', function () {
-    return view('componentPromosi.BigEvent');
-});
-// Route::get('/katalogjumat', function () {
-//     return view('componentPromosi.KatalogJumat');
-// });
-// Route::get('/katalogtanggalmuda', function () {
-//     return view('componentPromosi.KatalogTanggalMuda');
-// });
-Route::get('/katalogevent', function () {
-    return view('componentPromosi.KatalogEvent');
-});
-
-// Route Masing-masing lokasi
-// Route::get('/lokasi', function () {
-//     return view('componentLokasi.LokasiDetail');
-// });
+// Route Lokasi yang digunakan
 Route::get('/lokasi', function(){
     return view('componentLokasi.LokasiDetail');
 });
@@ -162,8 +90,64 @@ Route::get('/10', function () {
     return view('componentLokasi.lokasicabang.10_Peralatan_Rumah_Tangga');
 });
 
+// ------------------------------------------------------------
+// Component ekstensi halaman Contact Us
+Route::get('/aboutus', function () {
+    return view('componentAboutUs.Sejarah');
+});
+Route::get('/visimisi', function () {
+    return view('componentAboutUs.VisiMisi');
+});
+Route::get('/customercare', function () {
+    return view('componentCustomerCare.FormCC');
+});
 
-// Route Pakai Controller
-// Route::get('/lokasi', [MapController::class, 'index']);
+// ------------------------------------------------------------
+// Component ekstensi halaman Karir
+Route::get('/infolowongan', function () {
+    return view('componentKarir.InfoLowongan');
+});
+Route::get('/hasiltest', function () {
+    return view('componentKarir.HasilTest');
+});
+Route::get('/event', function () {
+    return view('componentKarir.Event');
+});
+Route::get('/other', function () {
+    return view('componentKarir.Other');
+});
+
+// ------------------------------------------------------------
+// Component Blog
+Route::get('/infopelanggan', function () {
+    return view('componentBlog.InfoPelanggan');
+});
+Route::get('/resepdapur', function () {
+    return view('componentBlog.ResepDapur');
+});
+Route::get('/seputarproduk', function () {
+    return view('componentBlog.SeputarProduk');
+});
+
+// ------------------------------------------------------------
+
+
+
+
+// Route Testing
+// Route::get('/test', function () {
+//     return view('welcome');
+// });
+// Route::get('/Dump', function () {
+//     return view('Trial.trial');
+// });
+
+
+
+
+
+
+
+
 
 

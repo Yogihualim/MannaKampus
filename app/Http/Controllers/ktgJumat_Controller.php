@@ -6,7 +6,6 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
-// use App\Http\Controllers\ktgJumat_Controller;
 use App\Models\ktg_Jumat;
 
 class ktgJumat_Controller extends Controller

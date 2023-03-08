@@ -1,6 +1,11 @@
 @extends('Promosi')
 
 @section('contentPromosi')
+    <ul class="breadcrumb text-dark ps-2">
+        <li class="breadcrumb-item"><a href="id">Home</a></li>
+        <li class="breadcrumb-item active"><u>Katalog Tanggal Muda</u></li>
+    </ul>
+    <hr>
     <div class="row">
         @if (count($katalog_tanggal_muda))
             @foreach ($katalog_tanggal_muda as $ktm=>$item)

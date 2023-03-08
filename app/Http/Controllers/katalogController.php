@@ -8,6 +8,7 @@ use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
 use App\Models\ktg_Jumat;
 use App\Models\ktg_Tanggal_Muda;
+use App\Models\ktg_Event;
 
 class katalogController extends Controller
 {
@@ -33,5 +34,12 @@ class katalogController extends Controller
         $katalog_event = ktg_Event::orderBy('id', 'Asc')->get();
         // dd($katalog_tanggal_muda);
         return view('componentPromosi.KatalogEvent', compact('katalog_event'));
+    }
+
+    public function index4()
+    {
+        // $katalog_event = ktg_Event::orderBy('id', 'Asc')->get();
+        // dd($katalog_tanggal_muda);
+        return view('componentPromosi.BigEvent');
     }
 }
