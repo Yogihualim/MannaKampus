@@ -22,12 +22,29 @@
         <h2 class="fs-2">Customer Care - Manna Kampus (Mirota Kampus)</h2>
         <hr>
         <div class="row">
-            <div class="col-lg-6 mb-lg-0">
+            <div class="col-lg-3 col-md-6">
+                    <div class="nav card py-2 px-1 text-start">
+                        <li class="nav-item">
+                            <a class="nav-link" id="Act" href="{{url('lokasi')}}"><i class="bi-archive pe-2 fw-2"></i>Lokasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Act" href="{{url('customercare')}}"><i class="bi-person-exclamation pe-2 fw-2"></i>Customer Care</a>
+                        </li>
+                    </div>
+                    <br>
+                </div>
+            <div class="col-lg-4 mb-lg-0">
+                <ul class="breadcrumb text-dark ps-2">
+                            <li class="breadcrumb-item"><a href="id">Home</a></li>
+                            <li class="breadcrumb-item active"><u>Customer Care</u></li>
+                        </ul>
+                        <hr>
                 <img class="img ps-4 pt-4" src="public/maintenance/UM3.png" width="90%" alt="..." title="">
 
                 {{-- <img src="{{ URL::asset('1.png') }}" alt="..." title=""> --}}
             </div>
-            <div class="col-lg-6 mb-5 mb-lg-4">
+            <div class="col-lg-5 mb-5 mb-lg-4">
+                <br><hr>
                 <form method="post" action="{{ route('postDataCus') }}" enctype="multipart/form-data">
                     @csrf
                     <h2 class="mt-2">Customer Care</h2>

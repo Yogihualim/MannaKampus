@@ -1,9 +1,8 @@
-
-    // Load google API
+// Load google API
 function initialize() {
     var options = {
-    center:new google.maps.LatLng(-7.793895,110.377540), // longitude latitude Babarsari
-    zoom:12,
+    center:new google.maps.LatLng(-7.784738,110.378561), // longitude latitude Babarsari
+    zoom:11.8,
     mapTypeId:google.maps.MapTypeId.ROADMAP // Tipe ROADMAP
     };
     var babarsari = {lat: -7.783100, lng: 110.414575};
@@ -18,55 +17,146 @@ function initialize() {
     var peralatan = {lat: -7.776677, lng: 110.374239};
     // create map object
     var map=new google.maps.Map(document.getElementById("googleMap"),options);
-    var contentString1 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Mirota Kampus Babarsari</h6>' +
-    '<div class="text-start">Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</div>' + '<br>' +
-    '<a href="1"><button id="button"><span>Selengkapnya </span></button></a>';
+    var contentString1 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1 text-center" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Mirota Kampus Babarsari</h6>' +
+            '<div class="text-start">Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</div>' +
+            '<br>' +
+            '<a href="1"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
-    var contentString2 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus C. Simanjuntak</h6>' +
-    '<div class="text-start">Jl. C. Simanjuntak No.70, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223</div>' + '<br>' +
-    '<a href="2"><button id="button"><span>Selengkapnya </span></button></a>';
+    var contentString2 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus C. Simanjuntak</h6>' +
+            '<div class="text-start">Jl. C. Simanjuntak No.70, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223</div>' +
+            '<br>' +
+            '<a href="2"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
-    var contentString3 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus M. Supeno</h6>' +
-    '<div class="text-start">Jl. Menteri Supeno No.38, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</div>' + '<br>' +
-    '<a href="3"><button id="button"><span>Selengkapnya </span></button></a>';
+    var contentString3 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus M. Supeno</h6>' +
+            '<div class="text-start">Jl. Menteri Supeno No.38, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</div>' +
+            '<br>' +
+            '<a href="3"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
-    var contentString4 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus Palagan</h6>' +
-    '<div class="text-start">Jl. Palagan Tentara Pelajar No.31, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</div>' + '<br>' +
-    '<a href="4"><button id="button"><span>Selengkapnya </span></button></a>';
 
-    var contentString5 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus Godean</h6>' +
-    '<div class="text-start">Jl. Godean No.KM. 2.8, Ngestiharjo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184</div>' + '<br>' +
-    '<a href="5"><button id="button"><span>Selengkapnya </span></button></a>';
+    var contentString4 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus Palagan</h6>' +
+            '<div class="text-start">Jl. Palagan Tentara Pelajar No.31, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</div>' +
+            '<br>' +
+            '<a href="4"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
-    var contentString6 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus Imogiri</h6>' +
-    '<div class="text-start">Jl. Imogiri Tim. No.KM. 7, Grojogan, Wirokerten, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55194</div>' + '<br>' +
-    '<a href="6"><button id="button"><span>Selengkapnya </span></button></a>';
 
-    var contentString7 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus Mini Pelemsewu</h6>' +
-    '<div class="text-start">Jl. Pelemsewu No.C 1, Pandes, Panggungharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188</div>' + '<br>' +
-    '<a href="7"><button id="button"><span>Selengkapnya </span></button></a>';
+    var contentString5 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus Godean</h6>' +
+            '<div class="text-start">Jl. Godean No.KM. 2.8, Ngestiharjo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184</div>' +
+            '<br>' +
+            '<a href="5"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
-    var contentString8 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus Mini Diro</h6>' +
-    '<div class="text-start">Jl. Bantul No.8, Diro, Pendowoharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55186</div>' + '<br>' +
-    '<a href="8"><button id="button"><span>Selengkapnya </span></button></a>';
+    var contentString6 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus Imogiri</h6>' +
+            '<div class="text-start">Jl. Imogiri Tim. No.KM. 7, Grojogan, Wirokerten, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55194</div>' +
+            '<br>' +
+            '<a href="6"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
-    var contentString9 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus Mini Minomartani</h6>' +
-    '<div class="text-start">Jl. Kakap Raya, RT.019/RW.004, Mladangan, Minomartani, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</div>' + '<br>' +
-    '<a href="9"><button id="button"><span>Selengkapnya </span></button></a>';
+    var contentString7 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus Mini Pelemsewu</h6>' +
+            '<div class="text-start">Jl. Pelemsewu No.C 1, Pandes, Panggungharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188</div>' +
+            '<br>' +
+            '<a href="7"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
+
+    var contentString8 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus Mini Diro</h6>' +
+            '<div class="text-start">Jl. Bantul No.8, Diro, Pendowoharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55186</div>' +
+            '<br>' +
+            '<a href="8"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
+
+    var contentString9 =
+    '<link href="resources/css/button.css" rel="stylesheet" />' +
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus Mini Minomartani</h6>' +
+            '<div class="text-start">Jl. Kakap Raya, RT.019/RW.004, Mladangan, Minomartani, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</div>' +
+            '<br>' +
+            '<a href="9"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
     var contentString10 = '<link href="resources/css/button.css" rel="stylesheet" />' +
-    '<h6 class="text-start">Manna Kampus Peralatan Rumah Tangga</h6>' +
-    '<div class="text-start">Jl. C. Simanjuntak no. 64, Terban, Gondokusuman, Yogyakarta 55223</div>' + '<br>' +
-    '<a href="10"><button id="button"><span>Selengkapnya </span></button></a>';
+    '<div class="row gx-8 gx-lg-10 p-2">'+
+        '<div class="col-lg-4 col-md-4">' +
+            '<img class="img ps-1 pt-1" src="public/maintenance/UM3.png" width="90%" alt="..." title="">' +
+        '</div>'+
+        '<div class="col-lg-8 col-md-10">' +
+            '<h6 class="text-start">Manna Kampus Peralatan Rumah Tangga</h6>' +
+            '<div class="text-start">Jl. C. Simanjuntak no. 64, Terban, Gondokusuman, Yogyakarta 55223</div>' +
+            '<br>' +
+            '<a href="10"><button id="button"><span>Selengkapnya </span></button></a>' +
+        '</div>'+
+    '</div>';
 
     // membuat objek info window
     var infowindow1 = new google.maps.InfoWindow({

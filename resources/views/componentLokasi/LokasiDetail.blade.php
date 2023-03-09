@@ -28,11 +28,13 @@
                         <li class="nav-item">
                             <a class="nav-link" id="Act" href="{{url('lokasi')}}"><i class="bi-archive pe-2 fw-2"></i>Lokasi</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Act" href="{{url('customercare')}}"><i class="bi-person-exclamation pe-2 fw-2"></i>Customer Care</a>
+                        </li>
                     </div>
                     <br>
                 </div>
                 <div class="col-lg-9 col-md-6 text-start">
-
                     {{-- Lokasi Detail --}}
                     <h5 class="fw-normal fs-6 lh-sm">
                         <ul class="breadcrumb text-dark ps-2">
@@ -44,6 +46,7 @@
                         <div id="googleMap" class="text-center" style="width:1200px; height:450px; max-width:100%; max-height:70%; border-radius:10px;"></div>
                         <hr>
                         <div class="row gx-8 gx-lg-10">
+                            {{--  --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
