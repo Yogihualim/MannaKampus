@@ -47,8 +47,9 @@
                     </ul>
                     <hr>
                     <!-- Map container -->
-                    {{-- <div id="googleMap" class="text-center" style="width:1000px; height:300px; max-width:100%; max-height:70%; border-radius:10px;"></div> --}}
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.062588037864!2d110.41234715025672!3d-7.783189094363339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59eccfaf2939%3A0x2935e0ad5dd1cbe1!2sManna%20Kampus%20(Mirota%20Kampus)%20Babarsari!5e0!3m2!1sid!2sid!4v1678240414455!5m2!1sid!2sid" width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.062588037864!2d110.41234715025672!3d-7.783189094363339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59eccfaf2939%3A0x2935e0ad5dd1cbe1!2sManna%20Kampus%20(Mirota%20Kampus)%20Babarsari!5e0!3m2!1sid!2sid!4v1678240414455!5m2!1sid!2sid"
+                        width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Babarsari</h3>
@@ -91,39 +92,4 @@
 </body>
 </html>
 
-<!-- Load google API -->
-{{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAImx30m_Rc7-gIATCbKE6OHAcwkEq3bYk&library=places"></script>
-<script>
-    function initialize() {
-        var options = {
-        center:new google.maps.LatLng(-7.783100,110.414575), // longitude latitude Babarsari
-        zoom:18,
-        mapTypeId:google.maps.MapTypeId.ROADMAP // Tipe ROADMAP
-        };
-        var babarsari = {lat: -7.783100, lng: 110.414575};
-        // create map object
-        var map=new google.maps.Map(document.getElementById("googleMap"),options);
-        var contentString = '<h6 class="text-start">Mirota Kampus Babarsari</h6>' +
-        '<div class="text-start">Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</div>' +
-        '<div class="google-maps-link text-start pt-2"><a aria-label="View larger map" target="_blank" jstcache="31" href="https://goo.gl/maps/SNS1VcHEGn671Wyj7" jsaction="mouseup:placeCard.largerMap">View larger map</a></div>';
 
-        // membuat objek info window
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString,
-          maxWidth: 450,
-          position: babarsari,
-        });
-
-        // membuat marker
-        var marker = new google.maps.Marker({
-          position: babarsari,
-          map: map,
-          title: 'Mirota Kampus Babarsari'
-        });
-
-        infowindow.open(map, marker);
-
-    }
-    // membuat Event Listener untuk memanggil fungsi initialize pada saat halaman selesai di load
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script> --}}

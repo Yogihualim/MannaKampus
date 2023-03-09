@@ -17,7 +17,7 @@
 </html>
 
 {{-- Script Google Maps --}}
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAImx30m_Rc7-gIATCbKE6OHAcwkEq3bYk&callback=initMap" async></script>
 <script>
     let map, activeInfoWindow, markers = [];
 

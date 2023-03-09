@@ -40,7 +40,7 @@ class MapController extends Controller
                 'draggable' => true
             ]
         ];
-        return view('Lokasi', compact('initialMarkers'));
+        return view('componentLokasi.map', compact('initialMarkers'));
     }
 
     /**

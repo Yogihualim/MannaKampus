@@ -142,6 +142,7 @@
             margin-left: 2.5px;
             margin-right: 2.5px;
         }
+
         .nav a:hover {
             background-color: #ff9544;
             color: rgb(255, 255, 255);
@@ -149,6 +150,7 @@
             margin-left: 2.5px;
             margin-right: 2.5px;
         }
+
         .nav a.active {
             background-color: #ff9544;
             color: rgb(255, 255, 255);

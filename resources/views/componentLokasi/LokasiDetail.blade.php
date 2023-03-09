@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Us Page</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAImx30m_Rc7-gIATCbKE6OHAcwkEq3bYk&library=places"></script>
+    <script src="resources/js/scriptMaps.js"></script>
 
     @include('assets.scriptLink')
     @include('cssStyle.mainPageCSS')
@@ -30,6 +32,7 @@
                     <br>
                 </div>
                 <div class="col-lg-9 col-md-6 text-start">
+
                     {{-- Lokasi Detail --}}
                     <h5 class="fw-normal fs-6 lh-sm">
                         <ul class="breadcrumb text-dark ps-2">
@@ -37,11 +40,13 @@
                             <li class="breadcrumb-item active"><u>Lokasi</u></li>
                         </ul>
                         <hr>
+                        <!-- Map container -->
+                        <div id="googleMap" class="text-center" style="width:1200px; height:450px; max-width:100%; max-height:70%; border-radius:10px;"></div>
+                        <hr>
                         <div class="row gx-8 gx-lg-10">
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Babarsari</h4>
                                             <p class="card-text pb-1">Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
@@ -54,7 +59,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus C. Simanjuntak</h4>
                                             <p class="card-text pb-4">Jl. C. Simanjuntak No.70, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223</p>
@@ -67,7 +71,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus M. Supeno</h4>
                                             <p class="card-text pb-4">Jl. Menteri Supeno No.38, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</p>
@@ -80,7 +83,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Palagan</h4>
                                             <p class="card-text pb-1">Jl. Palagan Tentara Pelajar No.31, Mudal, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>
@@ -93,7 +95,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Godean</h4>
                                             <p class="card-text pb-4">Jl. Godean No.KM. 2.8, Ngestiharjo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184</p>
@@ -106,7 +107,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Imogiri</h4>
                                             <p class="card-text pb-1">Jl. Imogiri Tim. No.KM. 7, Grojogan, Wirokerten, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55194</p>
@@ -119,7 +119,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Mini Pelemsewu</h4>
                                             <p class="card-text pb-1">Jl. Pelemsewu No.C 1, Pandes, Panggungharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188</p>
@@ -132,7 +131,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Mini Diro</h4>
                                             <p class="card-text pb-4">Jl. Bantul No.8, Diro, Pendowoharjo, Kec. Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55186</p>
@@ -145,7 +143,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Mini Minomartani</h4>
                                             <p class="card-text pb-1">Jl. Kakap Raya, RT.019/RW.004, Mladangan, Minomartani, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>
@@ -158,7 +155,6 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
-                                        <img class="img px-2" src="public/maintenance/UM3.png" style="height:60%; width:100%;" alt="..." title="">
                                         <div class="card-body">
                                             <h4 class="card-title">Manna Kampus Peralatan Rumah Tangga</h4>
                                             <p class="card-text pb-4">Jl. C. Simanjuntak no. 64, Terban, Gondokusuman, Yogyakarta 55223</p>
@@ -186,4 +182,3 @@
     @include('component.Footer')
 </body>
 </html>
-
