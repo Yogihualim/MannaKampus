@@ -24,9 +24,9 @@ use App\Http\Controllers\CustomerCare_Controller;
 */
 // ------------------------------------------------------------
 // Route Pakai View
-Route::get('/id', function () {
-    return view('Homepage');
-});
+// Route::get('/id', function () {
+//     return view('Homepage');
+// });
 
 // ------------------------------------------------------------
 // Bagian Login Controller
@@ -34,20 +34,21 @@ Route::get('/admin', [admin_Controller::class, 'login'])->name('login');
 Route::post('loginaksi',[admin_Controller::class, 'loginaksi'])->name('loginaksi');
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
 Route::get('logoutaksi', [admin_Controller::class, 'logoutaksi'])->name('logoutaksi')->middleware('auth');
-
 // ------------------------------------------------------------
 // Controller untuk halaman admin
 Route::resource('/katalog_jumat', ktgJumat_Controller::class)->middleware('auth');
 Route::resource('/katalog_tanggal_muda', ktgTanggalMuda_Controller::class)->middleware('auth');
 Route::resource('/katalog_event', ktgEvent_Controller::class)->middleware('auth');
 
+Route::resource('/homepage', HomepageController::class)->middleware('auth');
+
 
 // Untuk menampilkan pada halaman website
+Route::get('/id', [HomepageController::class, 'home']);
 Route::get('/katalogjumat', [katalogController::class, 'index']);
 Route::get('/katalogtanggalmuda', [katalogController::class, 'index2']);
 Route::get('/katalogevent', [katalogController::class, 'index3']);
 Route::get('/bigevent', [katalogController::class, 'index4']);
-
 
 // ------------------------------------------------------------
 // Customer Care Controller

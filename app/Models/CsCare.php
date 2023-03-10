@@ -18,29 +18,29 @@ class CsCare extends Model
         'pesan'
     ];
 
-    /**
-     * Set the categories
-     *
-     */
-    public function setCabang($value)
-    {
-        $this->attributes['pilih_cabang'] = json_encode($value);
-    }
-    public function setKeluhan($value2)
-    {
-        $this->attributes['keluhan'] = json_encode($value2);
-    }
+    // /**
+    //  * Set the categories
+    //  *
+    //  */
+    // public function setCabang($value)
+    // {
+    //     $this->attributes['pilih_cabang'] = json_encode($value);
+    // }
+    // public function setKeluhan($value2)
+    // {
+    //     $this->attributes['keluhan'] = json_encode($value2);
+    // }
 
-    /**
-     * Get the categories
-     *
-     */
-    public function getCabang($value)
-    {
-        return $this->attributes['pilih_cabang'] = json_decode($value);
-    }
-    public function getKeluhan($value2)
-    {
-        return $this->attributes['keluhan'] = json_decode($value2);
-    }
+    // /**
+    //  * Get the categories
+    //  *
+    //  */
+    // public function getCabang($value)
+    // {
+    //     return $this->attributes['pilih_cabang'] = json_decode($value);
+    // }
+    // public function getKeluhan($value2)
+    // {
+    //     return $this->attributes['keluhan'] = json_decode($value2);
+    // }
 }

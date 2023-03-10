@@ -3,7 +3,7 @@
         <div class="container px-4 px-lg-5">
             <p class="lead fw-normal text-white text-center fw-semibold">
                 <a id="logo" href="id">
-                    <img class="app-badge" style="width: 140px;" src="https://www.mirotakampus.com/resources/views/themes/plugin/images/logo.png" alt="..." />
+                    <img class="app-badge" style="width: 140px;" src="public/maintenance/logo.png" alt="..." />
                 </a>
             </p>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

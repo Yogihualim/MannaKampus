@@ -5,7 +5,7 @@
         <br>
         <div class="row">
             <div class="col-lg-5 text-center position-relative">
-                <img id="sejarahMain" class="animate__animated animate__fadeInBottomLeft" src="public/user-interface.png" alt="" style="max-width:80%;">
+                <img id="sejarahMain" class="animate__animated animate__fadeInBottomLeft" src="public/maintenance/user-interface.png" alt="" style="max-width:80%;">
                 <br><br>
             </div>
             <div class="col-lg-7">

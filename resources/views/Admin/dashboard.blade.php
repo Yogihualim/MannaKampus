@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin Page</title>
-
-    <link href="resources/css/styles.css" rel="stylesheet" />
+    <link href="{{ url('resources/css/styles.css') }}" rel="stylesheet" />
     @include('assets.scriptLink')
 
 </head>
@@ -18,10 +17,11 @@
                 Start Bootstrap
             </div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="admin">Profil</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="katalog_jumat">Katalog Jumat</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="katalog_tanggal_muda">Katalog Tanggal Muda</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="katalog_event"> Katalog Events</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('dashboard') }}">Profil</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('homepage.index') }}">Homepage Carousel</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_jumat.index') }}">Katalog Jumat</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_tanggal_muda.index') }}">Katalog Tanggal Muda</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_event.index') }}">Katalog Events</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
             </div>
@@ -35,7 +35,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                            <li class="nav-item active"><a class="nav-link" href="admin">Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="{{ route('dashboard') }}">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ route('logoutaksi') }}"><i class="bi bi-power"></i>  Log Out</a></li>
                             {{-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
