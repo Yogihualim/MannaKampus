@@ -9,6 +9,9 @@ use App\Http\Controllers\Controller;
 use App\Models\ktg_Jumat;
 use App\Models\ktg_Tanggal_Muda;
 use App\Models\ktg_Event;
+use App\Models\big_Event;
+use App\Models\infoLowongan;
+
 
 class katalogController extends Controller
 {
@@ -38,8 +41,15 @@ class katalogController extends Controller
 
     public function index4()
     {
-        // $katalog_event = ktg_Event::orderBy('id', 'Asc')->get();
+        $big_event = big_Event::orderBy('id', 'Asc')->get();
         // dd($katalog_tanggal_muda);
-        return view('componentPromosi.BigEvent');
+        return view('componentPromosi.BigEvent', compact('big_event'));
+    }
+
+    public function index5()
+    {
+        $info_lowongan = infoLowongan::orderBy('id', 'Asc')->get();
+        // dd($katalog_tanggal_muda);
+        return view('componentKarir.InfoLowongan', compact('info_lowongan'));
     }
 }

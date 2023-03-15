@@ -25,7 +25,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Gambar:</strong>
-                <img width="500px" src="{{ url('public/katalogEvent'.$katalog_event->image_katalog_E) }}">
+                <img width="500px" src="{{ url('public/katalogEvent/'.$katalog_event->image_katalog_E) }}">
             </div>
         </div>
     </div>

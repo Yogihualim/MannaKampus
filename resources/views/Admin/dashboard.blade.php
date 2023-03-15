@@ -21,9 +21,9 @@
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('homepage.index') }}">Homepage Carousel</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_jumat.index') }}">Katalog Jumat</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_tanggal_muda.index') }}">Katalog Tanggal Muda</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_event.index') }}">Katalog Events</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_event.index') }}">Katalog Event</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('big_event.index') }}">Big Event</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('info_lowongan.index') }}">Info Lowongan</a>
             </div>
         </div>
         <!-- Page content wrapper-->
