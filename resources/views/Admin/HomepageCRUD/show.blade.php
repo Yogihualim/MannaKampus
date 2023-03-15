@@ -2,7 +2,7 @@
 @section('Katalogs')
     <div class="d-flex justify-content-between mt-5 mb-5">
         <div>
-            <h2>Show Katalog Event</h2>
+            <h2>Show Carousel</h2>
         </div>
         <div>
             <a href="{{ route('homepage.index') }}" class="btn btn-secondary"> Back</a>
@@ -25,7 +25,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Gambar:</strong>
-                <img width="500px" src="{{ url('public/imgHomepages/'.$homepages->image_foto) }}">
+                <img width="500px" src="{{ url('public/imgHomepages/'.$homepages->image_home) }}">
             </div>
         </div>
     </div>
