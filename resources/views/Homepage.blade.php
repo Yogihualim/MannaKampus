@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Manna Kampus yang sebelumnya dikenal dengan nama Mirota Kampus berdiri pada tanggal 13 Mei 1985 di bawah naungan PT. Mirota Nayan">
+    <meta name="keywords" content="Manna Kampus, Mirota Kampus, Kampus, Mirota, Manna, Belanja Online, Ritel">
     <title>Home Page</title>
 
     @include('assets.scriptLink')

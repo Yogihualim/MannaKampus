@@ -43,7 +43,7 @@ class bigEvent_Controller extends Controller
             'image_BE' => $file->getClientOriginalName()
         );
         big_Event::create($big_event);
-        return redirect()->route('bigevent.index')->with('success','Item updated successfully');
+        return redirect()->route('big_event.index')->with('success','Item updated successfully');
     }
 
     /**
@@ -82,7 +82,7 @@ class bigEvent_Controller extends Controller
             'image_BE' => $file->getClientOriginalName()
         );
         big_Event::find($id)->update($big_event);
-        return redirect()->route('bigevent.index')->with('success','Item updated successfully');
+        return redirect()->route('big_event.index')->with('success','Item updated successfully');
     }
 
     /**

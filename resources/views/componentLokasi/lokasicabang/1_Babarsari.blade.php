@@ -53,7 +53,7 @@
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Babarsari</h3>
-                        <p class="card-text">Manna Kampus Babarsari merupakan outlet pertama yang didirikan oleh Bapak Siswanto Hendro Sutikno selaku Owner & Direktur
+                        <p class="card-text fs-6">Manna Kampus Babarsari merupakan outlet pertama yang didirikan oleh Bapak Siswanto Hendro Sutikno selaku Owner & Direktur
                             Utama. Manna Kampus Babarsari menyediakan aneka kebutuhan sehari-hari seperti produk-produk supermarket, buah & sayur, kosmetik, fashion,
                             perlengkapan sekolah & kantor, peralatan listrik, perlengkapan olah raga, dan pecah belah.
                             <br><br>
@@ -61,7 +61,7 @@
                                 Jl. Raya Solo - Yogyakarta Jl. Babarsari No.KM. 7, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281
                             <br><br>
                             <i class="bi-signpost-split pe-0"></i>
-                                Telp: 0274-485288
+                                Telp: 0274-485288 <a href=""></a>
                             <br><br>
                             <i class="bi-signpost-split pe-0"></i>
                                 Jam Operasional :

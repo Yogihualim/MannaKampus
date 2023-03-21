@@ -14,7 +14,7 @@
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light">
-                Start Bootstrap
+                Manna Kampus
             </div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('dashboard') }}">Profil</a>
@@ -53,7 +53,25 @@
             <!-- Page content-->
             <div class="container-fluid">
                 <div class="container">
+                    <br>
+                    <?php
+                        $t = date("H:i:s, l");
+                            echo $t . "<br>";
+
+                        $d = strtotime("tomorrow");
+                            echo "Tomorrow is " . date("l", $d) . "<br>";
+                        if ($t < "10") {
+                            echo "Have a good morning!";
+                        } elseif ($t < "8") {
+                            echo "Have a good day!";
+                        } else {
+                            echo "Have a good night!";
+                        }
+                    ?>
+                    <hr>
                     @yield('Katalogs')
+                    <hr>
+
                 </div>
             </div>
         </div>
