@@ -7,7 +7,7 @@
     <title>Blog Page</title>
 
     @include('assets.scriptLink')
-    @include('cssStyle.mainPageCSS')
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/mainStyle.css') }}">
 </head>
 <body>
     <!-- Navigation-->
@@ -35,11 +35,17 @@
                                 Resep Dapur
                             </a>
                         </li>
-                        <hr class="mx-3"/>
+                        {{-- <hr class="mx-3"/> --}}
                         <li class="nav-item">
                             <a class="nav-link" id="Act" href="{{url('seputarproduk')}}">
                                 <i class="bi-info-circle pe-2 fw-2"></i>
                                 Seputar Produk
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Act" href="{{url('kegiatansosial')}}">
+                                <i class="bi-person-heart pe-2 fw-2"></i>
+                                Kegiatan Sosial
                             </a>
                         </li>
                     </div>

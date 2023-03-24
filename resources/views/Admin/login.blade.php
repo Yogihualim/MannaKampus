@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login Admin Manna Kampus</title>
 
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/mainStyle.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/adminStyle.css') }}">
     @include('assets.scriptLink')
-    @include('cssStyle.mainPageCSS')
 </head>
 
 <body style="background-color:darkcyan">

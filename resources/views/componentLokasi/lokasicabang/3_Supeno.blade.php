@@ -7,7 +7,7 @@
     <title>Supeno</title>
 
     @include('assets.scriptLink')
-    @include('cssStyle.mainPageCSS')
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/mainStyle.css') }}">
 </head>
 <body>
     <!-- Navigation-->

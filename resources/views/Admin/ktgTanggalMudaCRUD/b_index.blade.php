@@ -36,6 +36,7 @@
                     @csrf
                     @method('delete')
                     <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Delete</button>
+                    {{ $ktg_TM->created_at->format('d/m/Y') }}
                 </form>
             </td>
         </tr>

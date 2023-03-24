@@ -8,8 +8,9 @@
     <meta name="keywords" content="Manna Kampus, Mirota Kampus, Kampus, Mirota, Manna, Belanja Online, Ritel">
     <title>Home Page</title>
 
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/mainStyle.css') }}">
+
     @include('assets.scriptLink')
-    @include('cssStyle.mainPageCSS')
 </head>
 <body id="page-top">
     {{-- Navigasi Bar --}}

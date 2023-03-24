@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin Page</title>
-    <link href="{{ url('resources/css/styles.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/styles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/adminStyle.css') }}">
     @include('assets.scriptLink')
 
 </head>

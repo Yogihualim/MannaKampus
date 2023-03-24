@@ -35,7 +35,8 @@
                         <ul class="dropdown-menu px-3">
                             <li><a class="dropdown-item" href="infopelanggan"><i class="bi-people pe-2 fw-2"></i>Info Pelanggan</a></li>
                             <li><a class="dropdown-item" href="resepdapur"><i class="bi-ui-checks pe-2 fw-2"></i>Resep Dapur</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="bi-info-circle pe-2 fw-2"></i>Seputar Produk</a></li>
+                            <li><a class="dropdown-item" href="seputarproduk"><i class="bi-info-circle pe-2 fw-2"></i>Seputar Produk</a></li>
+                            <li><a class="dropdown-item" href="kegiatansosial"><i class="bi-person-heart pe-2 fw-2"></i>Kegiatan Sosial</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">

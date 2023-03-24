@@ -7,7 +7,7 @@
     <title>Form CC</title>
 
     @include('assets.scriptLink')
-    @include('cssStyle.mainPageCSS')
+    <link rel="stylesheet" type="text/css" href="{{ url('resources/css/mainStyle.css') }}">
 </head>
 <body>
     {{-- Navigasi Bar --}}
@@ -45,23 +45,23 @@
             </div>
             <div class="col-lg-5 mb-5 mb-lg-4">
                 <br><hr>
-                <form method="post" action="{{ route('postDataCus') }}" enctype="multipart/form-data">
+                {{-- <form method="post" action="{{ route('postDataCus') }}" enctype="multipart/form-data">
                     @csrf
-                    <h2 class="mt-2">Customer Care</h2>
+                    <h2 class="mt-2">Customer Care</h2> --}}
                     <!-- Name input -->
-                    <div class="form-floating mb-3 mt-3">
+                    {{-- <div class="form-floating mb-3 mt-3">
                         <input name="name_cus" type="form-control" class="form-control" id="floatingInput" placeholder="Nama">
                         <label for="floatingInput">Nama Lengkap</label>
-                    </div>
+                    </div> --}}
 
                     <!-- Email input -->
-                    <div class="form-floating mb-3">
+                    {{-- <div class="form-floating mb-3">
                         <input name="email_cus" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput">Email address</label>
-                    </div>
+                    </div> --}}
 
                     {{-- Cabang Input --}}
-                    <div class="form-floating mb-3">
+                    {{-- <div class="form-floating mb-3">
                         <select name="pilih_cabang[]" class="form-select" id="floatingSelect" aria-label="Floating label select example">
                             <option selected value="MK Babarsari">
                                 1. Manna Kampus Babarsari
@@ -95,10 +95,10 @@
                             </option>
                         </select>
                         <label for="floatingSelect">Pilih Cabang</label>
-                    </div>
+                    </div> --}}
 
                     {{-- Cabang Input --}}
-                    <div class="form-floating mb-3">
+                    {{-- <div class="form-floating mb-3">
                         <select name="keluhan[]" class="form-select" id="floatingSelect" aria-label="Floating label select example">
                             <option selected value="Layanan">Layanan</option>
                             <option value="Fasilitas">Fasilitas</option>
@@ -109,13 +109,13 @@
                             <option value="Lain-lain">Lain-lain</option>
                         </select>
                         <label for="floatingSelect">Kategori Keluhan</label>
-                    </div>
+                    </div> --}}
 
                     <!-- Message input -->
-                    <div class="form-floating mb-3">
+                    {{-- <div class="form-floating mb-3">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                         <label for="floatingTextarea2">Pesan</label>
-                    </div>
+                    </div> --}}
 
 
 
@@ -128,8 +128,8 @@
                     </div> --}}
 
                     <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-                </form>
+                    {{-- <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                </form> --}}
             </div>
         </div>
     </div>

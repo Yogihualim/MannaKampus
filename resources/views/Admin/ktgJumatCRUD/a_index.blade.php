@@ -29,28 +29,17 @@
             <td>{{$ktg_J->nama_katalog_jumat}}</td>
             <td>{{$ktg_J->image_katalog_J}} </td>
             <td class="text-center">
-                @csrf
-                <?php
-                    $e = strtotime("Today");
-                        echo "Today is " . date("l", $e) . "<br>";
+                {{-- @if ({{ $ktg_J->created_at->format('d/m/Y') }} == {{ $ktg_J->created_at('Thursday') }}) --}}
+                    <form action="{{ route('katalog_jumat.destroy',$ktg_J->id)}}" method="POST">
+                        <a class="btn btn-info btn-sm" href="{{ route('katalog_jumat.show',$ktg_J->id)}}">Show</a>
 
-                    if ($e == strtotime("Monday")) {
-                        echo (
-                            "<form action='katalog_jumat/$ktg_J->id' method='POST'>
-                                <a class='btn btn-info btn-sm' href='katalog_jumat/$ktg_J->id'>Show</a>
-
-                                <a class='btn btn-primary btn-sm' href='katalog_jumat/$ktg_J->id/edit'>Edit</a>
-                            </form>
-                            <form action='katalog_jumat/$ktg_J->id' method='POST'>
-                                <input type='hidden' name='_token' value=".csrf_token()." />
-                                <input type='hidden' name='_method' value='DELETE' />
-                                <button class='btn btn-danger btn-sm' onclick='return confirm('Apakah Anda yakin ingin menghapus data ini?')'>Delete</button>
-                            </form>"
-                        );
-                    } elseif ($e != strtotime("Friday") && $e == 1) {
-                        echo "Still Good";
-                    }
-                ?>
+                        <a class="btn btn-primary btn-sm" href="{{ route('katalog_jumat.edit',$ktg_J->id)}}">Edit</a>
+                        @csrf
+                        @method('delete')
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Delete</button>
+                    </form>
+                {{-- @else
+                @endif --}}
             </td>
         </tr>
         @endforeach

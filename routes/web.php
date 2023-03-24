@@ -130,6 +130,9 @@ Route::get('/resepdapur', function () {
 Route::get('/seputarproduk', function () {
     return view('componentBlog.SeputarProduk');
 });
+Route::get('/kegiatansosial', function () {
+    return view('componentBlog.KegSosial');
+});
 
 // ------------------------------------------------------------
 
