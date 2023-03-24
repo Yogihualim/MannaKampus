@@ -40,7 +40,7 @@
                     <h4 class="text-uppercase mb-2 text-start fs-5 fw-bold">Promosi</h4>
                     <p class="lead mb-0 text-start fs-6 fw-semibold">
                         <a class="nav-link text-start" href="bigevent">Big Event</a>
-                        <a class="nav-link text-start" href="katalogs">Katalog Jumat</a>
+                        <a class="nav-link text-start" href="katalogjumat">Katalog Jumat</a>
                         <a class="nav-link text-start" href="katalogtanggalmuda">Katalog Tanggal Muda</a>
                         <a class="nav-link text-start" href="katalogevent">Katalog Event</a>
                     </p>
