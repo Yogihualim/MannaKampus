@@ -24,18 +24,11 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="nav card py-2 px-1 text-start">
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('aboutus')}}"><i class="bi-archive pe-2 fw-2"></i>Sejarah Mirota</a>
+                            <a class="nav-link" id="Act" href="{{url('lokasi')}}"><i class="bi-archive pe-2 fw-2"></i>Lokasi</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('visimisi')}}"><i class="bi-postcard pe-2 fw-2"></i>Visi & Misi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('lokasi')}}"><i class="bi-geo-alt pe-2 fw-2"></i>Lokasi</a>
-                        </li>
-                        {{-- <hr class="mx-3"/>
                         <li class="nav-item">
                             <a class="nav-link" id="Act" href="{{url('customercare')}}"><i class="bi-person-exclamation pe-2 fw-2"></i>Customer Care</a>
-                        </li> --}}
+                        </li>
                     </div>
                     <br><br>
                 </div>
