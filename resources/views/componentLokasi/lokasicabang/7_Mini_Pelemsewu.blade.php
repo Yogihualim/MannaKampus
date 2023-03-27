@@ -43,6 +43,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.5115479787537!2d110.35740025025711!3d-7.841405194322274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57305ff74c1d%3A0xb9ff5018ad116cda!2sManna%20Kampus%20(Mirota%20Kampus)%20Mini%20Pelemsewu!5e0!3m2!1sid!2sid!4v1678243239224!5m2!1sid!2sid"
                         width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+                    <hr>
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Mini Pelemsewu</h3>

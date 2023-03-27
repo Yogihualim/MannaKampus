@@ -43,6 +43,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.522557849188!2d110.3752093502564!3d-7.734260894397929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58e31a9c9eab%3A0x39d6a6018023142b!2sMirota%20Kampus%20Palagan!5e0!3m2!1sid!2sid!4v1678242465561!5m2!1sid!2sid"
                         width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+                    <hr>
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Palagan</h3>

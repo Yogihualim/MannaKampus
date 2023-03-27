@@ -43,6 +43,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.4654455482564!2d110.40623445025649!3d-7.74035279439363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59534c3d453b%3A0x1a8c7aa94e067f10!2sManna%20Kampus%20(Mirota%20Kampus)%20Mini%20Minomartani!5e0!3m2!1sid!2sid!4v1678243904562!5m2!1sid!2sid"
                         width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+                    <hr>
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Mini Minomartani</h3>

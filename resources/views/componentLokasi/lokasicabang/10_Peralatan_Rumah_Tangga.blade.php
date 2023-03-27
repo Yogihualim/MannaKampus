@@ -43,6 +43,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1237771143897!2d110.37204525025673!3d-7.776697894367966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5835b8ca25e3%3A0x84f7e648217d68d7!2sManna%20Kampus%20Peralatan%20Rumah%20Tangga!5e0!3m2!1sid!2sid!4v1678243957543!5m2!1sid!2sid"
                         width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+                    <hr>
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Peralatan Rumah Tangga</h3>

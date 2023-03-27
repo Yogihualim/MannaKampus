@@ -43,6 +43,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7459550474423!2d110.37719555025687!3d-7.816693294339649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a570ab4e0b811%3A0x219de4d7bce6d757!2sManna%20Kampus%20(Mirota%20Kampus)%20Menteri%20Supeno!5e0!3m2!1sid!2sid!4v1678242010718!5m2!1sid!2sid"
                         width="1000" height="350" style="border-radius:10px; max-width:100%;" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+                    <hr>
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus M. Supeno</h3>

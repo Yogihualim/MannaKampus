@@ -43,6 +43,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.484935456774!2d110.3865790873856!3d-7.844205876326797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57b15cfb7e83%3A0x775553aa3fe92258!2sManna%20Kampus%20(Mirota%20Kampus)%20Imogiri!5e0!3m2!1sid!2sid!4v1678243127224!5m2!1sid!2sid"
                         width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
+                    <hr>
                     {{--  --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Imogiri</h3>
