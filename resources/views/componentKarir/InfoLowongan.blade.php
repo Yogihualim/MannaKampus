@@ -20,14 +20,5 @@
                 <img class="img" src="public/maintenance/UM3.png" width="70%" alt="..." title="">
             </div>
         @endif
-        {{-- {{ $info_lowongan->links() }} --}}
-        {{-- <div class="col-lg-6 col-md-6">
-            <br>
-            <img class="img" src="public/infolowongan/L-1.png" width="100%" alt="..." title="">
-        </div>
-        <div class="col-lg-6 col-md-6">
-            <br>
-            <img class="img" src="public/infolowongan/L-2.png" width="100%" alt="..." title="">
-        </div> --}}
     </div>
 @endsection

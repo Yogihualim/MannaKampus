@@ -69,10 +69,3 @@
     @include('component.Footer')
 </body>
 </html>
-
-<script>
-    function ActiveBtn() {
-        var x = document.getElementById("Btn");
-        x.disabled = false;
-    }
-</script>
