@@ -24,10 +24,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle ps-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Promosi</a>
                         <ul class="dropdown-menu px-3">
-                            <li><a class="dropdown-item" href="bigevent"><i class="bi-exclamation-octagon pe-2 fw-2"></i>Big Event</a></li>
-                            <li><a class="dropdown-item" href="katalogjumat"><i class="bi-calendar2-day pe-2 fw-2"></i>Katalog Jumat</a></li>
-                            <li><a class="dropdown-item" href="katalogtanggalmuda"><i class="bi-grid-fill pe-2 fw-2"></i>Katalog Tanggal Muda</a></li>
-                            <li><a class="dropdown-item" href="katalogevent"><i class="bi-grid-fill pe-2 fw-2"></i>Katalog Event</a></li>
+                            <li><a class="dropdown-item" href="big-event"><i class="bi-exclamation-octagon pe-2 fw-2"></i>Big Event</a></li>
+                            <li><a class="dropdown-item" href="katalog-jumat"><i class="bi-calendar2-day pe-2 fw-2"></i>Katalog Jumat</a></li>
+                            <li><a class="dropdown-item" href="katalog-tanggal-muda"><i class="bi-grid-fill pe-2 fw-2"></i>Katalog Tanggal Muda</a></li>
+                            <li><a class="dropdown-item" href="katalog-event"><i class="bi-grid-fill pe-2 fw-2"></i>Katalog Event</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -42,7 +42,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle ps-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Karir</a>
                         <ul class="dropdown-menu px-3">
-                            <li><a class="dropdown-item" href="infolowongan"><i class="bi-collection pe-2 fw-2"></i>Info Lowongan</a></li>
+                            <li><a class="dropdown-item" href="info-lowongan"><i class="bi-collection pe-2 fw-2"></i>Info Lowongan</a></li>
                             <li><a class="dropdown-item" href="hasiltest"><i class="bi-megaphone pe-2 fw-2"></i>Hasil Tes</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="event"><i class="bi-calendar2-event pe-2 fw-2"></i>Event</a></li>

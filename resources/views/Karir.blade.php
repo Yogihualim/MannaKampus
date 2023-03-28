@@ -24,7 +24,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="nav card py-2 px-1 text-start">
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('infolowongan')}}">
+                            <a class="nav-link" id="Act" href="{{url('info-lowongan')}}">
                                 <i class="bi-collection pe-2 fw-2"></i>
                                 Info Lowongan
                             </a>

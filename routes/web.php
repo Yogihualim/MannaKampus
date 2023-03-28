@@ -47,11 +47,11 @@ Route::resource('/info_lowongan', infoLowongan_Controller::class)->middleware('a
 
 // Untuk menampilkan pada halaman website
 Route::get('/id', [HomepageController::class, 'home']);
-Route::get('/katalogjumat', [katalogController::class, 'index']);
-Route::get('/katalogtanggalmuda', [katalogController::class, 'index2']);
-Route::get('/katalogevent', [katalogController::class, 'index3']);
-Route::get('/bigevent', [katalogController::class, 'index4']);
-Route::get('/infolowongan', [katalogController::class, 'index5']);
+Route::get('/katalog-jumat', [katalogController::class, 'index']);
+Route::get('/katalog-tanggal-muda', [katalogController::class, 'index2']);
+Route::get('/katalog-event', [katalogController::class, 'index3']);
+Route::get('/big-event', [katalogController::class, 'index4']);
+Route::get('/info-lowongan', [katalogController::class, 'index5']);
 
 // ------------------------------------------------------------
 // Customer Care Controller

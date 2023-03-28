@@ -24,26 +24,26 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="nav card py-2 px-1 text-start">
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('bigevent')}}">
+                            <a class="nav-link" id="Act" href="{{url('big-event')}}">
                                 <i class="bi-exclamation-octagon pe-2 fw-2"></i>
                                 Big Event
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('katalogjumat')}}">
+                            <a class="nav-link" id="Act" href="{{url('katalog-jumat')}}">
                                 <i class="bi-calendar2-day pe-2 fw-2"></i>
                                 Katalog Jumat
                             </a>
                         </li>
                         <hr class="mx-3"/>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('katalogtanggalmuda')}}">
+                            <a class="nav-link" id="Act" href="{{url('katalog-tanggal-muda')}}">
                                 <i class="bi-grid-fill pe-2 fw-2"></i>
                                 Katalog Tanggal Muda
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('katalogevent')}}">
+                            <a class="nav-link" id="Act" href="{{url('katalog-event')}}">
                                 <i class="bi-grid-fill pe-2 fw-2"></i>
                                 Katalog Event
                             </a>
