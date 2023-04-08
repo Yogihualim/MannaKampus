@@ -24,7 +24,7 @@
         @else
             <div class="col-lg-6 col-md-6">
                 <br>
-                <img class="img" src="public/maintenance/UM3.png" width="70%" alt="..." title="">
+                <img class="img" src="public/maintenance/No_Data.jpg" width="70%" alt="..." title="">
             </div>
         @endif
     </div>
