@@ -42,11 +42,11 @@
                             <li class="breadcrumb-item active"><u>Lokasi</u></li>
                         </ul>
                         <hr>
-                        <!-- Map container -->
+                        {{-- Map Container --}}
                         <div id="googleMap" class="text-center" style="width:1200px; height:450px; max-width:100%; max-height:70%; border-radius:10px;"></div>
                         <hr>
                         <div class="row gx-8 gx-lg-10">
-                            {{--  --}}
+                            {{-- Button Lokasi Babarsari --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -59,6 +59,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi C. Simanjuntak --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -71,6 +72,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi M. Supeno --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -83,6 +85,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi Palagan --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -95,6 +98,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi Godean --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -107,6 +111,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi Imogiri --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -119,6 +124,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi Mini Pelemsewu --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -131,6 +137,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi Mini Diro --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -143,6 +150,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi Mini Minomartani --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">
@@ -155,6 +163,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- Button Lokasi Peralatan Rumah Tangga --}}
                             <div class="col-lg-4 col-md-6">
                                 <div class="nav py-2 px-1 text-start">
                                     <div class="card px-2 pt-1 pb-0">

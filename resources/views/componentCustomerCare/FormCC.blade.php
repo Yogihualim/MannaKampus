@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form CC</title>
 
-    @include('assets.scriptLink')
+    {{-- Link untuk koneksi CSS --}}
     <link rel="stylesheet" type="text/css" href="{{ url('resources/css/mainStyle.css') }}">
+
+    {{-- Link untuk javascript --}}
+    @include('assets.scriptLink')
 </head>
 <body>
     {{-- Navigasi Bar --}}

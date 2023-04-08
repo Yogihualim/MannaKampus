@@ -25,6 +25,7 @@
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('katalog_event.index') }}">Katalog Event</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('big_event.index') }}">Big Event</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('info_lowongan.index') }}">Info Lowongan</a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{ route('hasil_test.index') }}">Hasil Test</a>
             </div>
         </div>
         <!-- Page content wrapper-->

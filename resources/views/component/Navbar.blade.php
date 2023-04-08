@@ -43,7 +43,7 @@
                         <a class="nav-link dropdown-toggle ps-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Karir</a>
                         <ul class="dropdown-menu px-3">
                             <li><a class="dropdown-item" href="info-lowongan"><i class="bi-collection pe-2 fw-2"></i>Info Lowongan</a></li>
-                            <li><a class="dropdown-item" href="hasiltest"><i class="bi-megaphone pe-2 fw-2"></i>Hasil Tes</a></li>
+                            <li><a class="dropdown-item" href="hasil-test"><i class="bi-megaphone pe-2 fw-2"></i>Hasil TesT</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="event"><i class="bi-calendar2-event pe-2 fw-2"></i>Event</a></li>
                             <li><a class="dropdown-item" href="other"><i class="bi-info-circle pe-2 fw-2"></i>Other</a></li>

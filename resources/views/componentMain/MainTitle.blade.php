@@ -7,16 +7,15 @@
             <div class="container px-2">
                 <div class="row gx-3 align-items-center">
                     <div class="col-lg-6">
-                        <!-- Mashead text and app badges-->
+                        {{-- Logo dan Keterangan Main --}}
                         <div id="judul" class="mb-5 mb-lg-0 text-start text-lg-start">
                             <img class="img animate__animated animate__fadeInLeft" src="public/maintenance/Logo_Tulisan_Manna_Kampus.png" height="60" alt="..." title="">
-                            {{-- <img class="navbar-brand" src="https://www.mirotakampus.com/resources/views/themes/plugin/images/logo.png" height="70" alt="CoolBrand"> --}}
-                            {{-- <h1 class="display-1 mb-3 fw-bold text-white">Manna Kampus</h1> --}}
                             <p class="lead fw-normal mb-3 text-white fw-semibold animate__animated animate__fadeInLeft">Alternatif belanja berbagai macam produk dalam satu situs untuk memenuhi semua kebutuhan konsumen.</p>
                             <a class="btn btn-xl text-white animate__animated animate__fadeInLeft" style="background-color:#e77823;" href="https://www.mirotakampus.com/id">Belanja Sekarang!</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
+                        {{-- Carousel - Start --}}
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -47,6 +46,7 @@
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
+                        {{-- Carousel - End --}}
                     </div>
                 </div>
                 <br><br><br>

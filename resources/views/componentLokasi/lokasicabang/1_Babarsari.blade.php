@@ -44,7 +44,7 @@
                         width="1000" height="350" style="border-radius:10px; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                     <hr>
-                    {{--  --}}
+                    {{-- Bagian Isi --}}
                     <div class="card-body">
                         <h3 class="card-title">Manna Kampus Babarsari</h3>
                         <p class="card-text fs-6">Manna Kampus Babarsari merupakan outlet pertama yang didirikan oleh Bapak Siswanto Hendro Sutikno selaku Owner & Direktur
@@ -63,6 +63,7 @@
                                 Senin - Minggu pukul 08.30 – 21.30 WIB
                             <br>
                         </p>
+                        {{-- Bagian Gambar Toko --}}
                         <div class="text-start">
                             <img src="public/maintenance/UM3.png" style="width:300px; height:250px; max-width: 100%" class="rounded" alt="...">
                             <img src="public/maintenance/UM3.png" style="width:300px; height:250px; max-width: 100%" class="rounded" alt="...">

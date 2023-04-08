@@ -11,6 +11,7 @@ use App\Models\ktg_Tanggal_Muda;
 use App\Models\ktg_Event;
 use App\Models\big_Event;
 use App\Models\infoLowongan;
+use App\Models\hasilTest;
 
 
 class katalogController extends Controller
@@ -28,28 +29,30 @@ class katalogController extends Controller
     public function index2()
     {
         $katalog_tanggal_muda = ktg_Tanggal_Muda::orderBy('id', 'Asc')->get();
-        // dd($katalog_tanggal_muda);
         return view('componentPromosi.KatalogTanggalMuda', compact('katalog_tanggal_muda'));
     }
 
     public function index3()
     {
         $katalog_event = ktg_Event::orderBy('id', 'Asc')->get();
-        // dd($katalog_tanggal_muda);
         return view('componentPromosi.KatalogEvent', compact('katalog_event'));
     }
 
     public function index4()
     {
         $big_event = big_Event::orderBy('id', 'Asc')->get();
-        // dd($katalog_tanggal_muda);
         return view('componentPromosi.BigEvent', compact('big_event'));
     }
 
     public function index5()
     {
         $info_lowongan = infoLowongan::orderBy('id', 'Asc')->get();
-        // dd($katalog_tanggal_muda);
         return view('componentKarir.InfoLowongan', compact('info_lowongan'));
+    }
+
+    public function index6()
+    {
+        $hasil_test = hasilTest::orderBy('id', 'Asc')->get();
+        return view('componentKarir.HasilTest', compact('hasil_test'));
     }
 }

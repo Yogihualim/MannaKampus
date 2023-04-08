@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Karir Page</title>
 
-    @include('assets.scriptLink')
+    {{-- Link untuk koneksi CSS --}}
     <link rel="stylesheet" type="text/css" href="{{ url('resources/css/mainStyle.css') }}">
+
+    {{-- Link untuk javascript --}}
+    @include('assets.scriptLink')
 </head>
 <body>
     <!-- Navigation-->
     @include('component.Navbar')
 
-    {{-- a --}}
     <br id="top"><br><br>
     {{-- Isi Sejarah --}}
     <div class="card p-4 m-4">
@@ -30,7 +32,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Act" href="{{url('hasiltest')}}">
+                            <a class="nav-link" id="Act" href="{{url('hasil-test')}}">
                                 <i class="bi-megaphone pe-2 fw-2"></i>
                                 Hasil Test
                             </a>

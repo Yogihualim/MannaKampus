@@ -13,6 +13,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CustomerCare_Controller;
 use App\Http\Controllers\bigEvent_Controller;
 use App\Http\Controllers\infoLowongan_Controller;
+use App\Http\Controllers\HasilTest_Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,11 +25,6 @@ use App\Http\Controllers\infoLowongan_Controller;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-// ------------------------------------------------------------
-// Route Pakai View
-// Route::get('/id', function () {
-//     return view('Homepage');
-// });
 
 // ------------------------------------------------------------
 // Bagian Login Controller
@@ -36,6 +32,7 @@ Route::get('/admin', [admin_Controller::class, 'login'])->name('login');
 Route::post('loginaksi',[admin_Controller::class, 'loginaksi'])->name('loginaksi');
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
 Route::get('logoutaksi', [admin_Controller::class, 'logoutaksi'])->name('logoutaksi')->middleware('auth');
+
 // ------------------------------------------------------------
 // Controller untuk halaman admin
 Route::resource('/katalog_jumat', ktgJumat_Controller::class)->middleware('auth');
@@ -44,6 +41,7 @@ Route::resource('/katalog_event', ktgEvent_Controller::class)->middleware('auth'
 Route::resource('/big_event', bigEvent_Controller::class)->middleware('auth');
 Route::resource('/homepage', HomepageController::class)->middleware('auth');
 Route::resource('/info_lowongan', infoLowongan_Controller::class)->middleware('auth');
+Route::resource('/hasil_test', HasilTest_Controller::class)->middleware('auth');
 
 // Untuk menampilkan pada halaman website
 Route::get('/id', [HomepageController::class, 'home']);
@@ -52,11 +50,11 @@ Route::get('/katalog-tanggal-muda', [katalogController::class, 'index2']);
 Route::get('/katalog-event', [katalogController::class, 'index3']);
 Route::get('/big-event', [katalogController::class, 'index4']);
 Route::get('/info-lowongan', [katalogController::class, 'index5']);
+Route::get('/hasil-test', [katalogController::class, 'index6']);
 
-// ------------------------------------------------------------
 // Customer Care Controller
-Route::get('/cusCreate',[CustomerCare_Controller::class, 'postCus']);
-Route::post('/postDataCus',[CustomerCare_Controller::class, 'postDataCus'])->name('postDataCus');
+// Route::get('/cusCreate',[CustomerCare_Controller::class, 'postCus']);
+// Route::post('/postDataCus',[CustomerCare_Controller::class, 'postDataCus'])->name('postDataCus');
 
 // ------------------------------------------------------------
 // Route Lokasi yang digunakan
@@ -108,10 +106,6 @@ Route::get('/customercare', function () {
 
 // ------------------------------------------------------------
 // Component ekstensi halaman Karir
-
-Route::get('/hasiltest', function () {
-    return view('componentKarir.HasilTest');
-});
 Route::get('/event', function () {
     return view('componentKarir.Event');
 });
@@ -135,10 +129,6 @@ Route::get('/kegiatansosial', function () {
 });
 
 // ------------------------------------------------------------
-
-
-
-
 // Route Testing
 // Route::get('/test', function () {
 //     return view('welcome');

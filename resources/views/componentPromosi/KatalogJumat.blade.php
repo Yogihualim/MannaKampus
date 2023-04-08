@@ -9,10 +9,28 @@
     <div class="row">
         @if (count($katalog_jumat))
             @foreach ($katalog_jumat as $k=>$item)
-            <div class="col-lg-6 col-md-6">
+            <?php
+                $t = date("l");
+                    echo $t . "<br>";
+                $d = strtotime("Friday");
+                    echo "Tomorrow is " . date("l", $d) . "<br>";
+                if ($t != $d) {
+                    echo "<div class='col-lg-6 col-md-6'>
+                            <br>
+                            <img class='img' src='public/katalogJumat/$item->image_katalog_J' width='100%' alt='...' title=''>
+                         </div>";
+                } else {
+                    echo "Have a good day!
+                    <div class='col-lg-6 col-md-6'>
+                        <br>
+                        <img class='img' src='public/maintenance/UM3.png' width='70%' alt='...' title=''>
+                    </div>";
+                };
+            ?>
+            {{-- <div class="col-lg-6 col-md-6">
                 <br>
                 <img class="img" src="{{ url('public/katalogJumat/'.$item->image_katalog_J) }}" width="100%" alt="..." title="">
-            </div>
+            </div> --}}
             @endforeach
         @else
             <div class="col-lg-6 col-md-6">
