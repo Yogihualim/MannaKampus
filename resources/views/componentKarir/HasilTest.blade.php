@@ -6,23 +6,16 @@
         <li class="breadcrumb-item active"><u>Hasil Test</u></li>
     </ul>
     <hr>
-    <br>
-    {{-- <iframe src="{{ env("APP_URL")."/public/HasilTest.pdf" }}" frameborder="10" class="justify-content-center" width="100%" height="95%"></iframe>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br> --}}
-
     <div class="row">
         @if (count($hasil_test))
             @foreach ($hasil_test as $ht=>$item)
-            <div class="col-lg-6 col-md-6">
+            <div class="col">
                 <br>
-                <iframe src="{{ url('public/HasilTestFolder/'.$item->pdf_HT) }}" class="justify-content-center" width="100%" height="95%" alt="..." title="">
+                <iframe src="{{ url('public/HasilTestFolder/'.$item->pdf_HT) }}" frameBorder="0" scrolling="auto" width=100% height=600 alt="..." title=""></iframe>
             </div>
             @endforeach
         @else
-            <div class="col-lg-6 col-md-6">
+            <div class="col">
                 <br>
                 <img class="img" src="public/maintenance/No_Data.jpg" width="70%" alt="..." title="">
             </div>

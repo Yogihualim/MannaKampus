@@ -33,18 +33,6 @@
     {{-- Button To Top --}}
     @include('component.ButtonToTop')
 
-
-    {{-- Contact --}}
-    <footer class="bg-light">
-        <div class="container px-4 px-lg-5">
-            {{-- <div class="small text-end">Contact Us
-                <a class="btn btn-outline-dark btn-social mx-1 ms-3" href="#!"><i class="bi bi-twitter"></i></a>
-                <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="bi bi-whatsapp"></i></a>
-                <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="bi bi-envelope"></i></a>
-            </div> --}}
-        </div>
-    </footer>
-
     {{-- Footer Contact Us --}}
     @include('componentMain.FooterContact')
 

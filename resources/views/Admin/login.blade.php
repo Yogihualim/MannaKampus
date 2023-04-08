@@ -53,34 +53,5 @@
       </div>
     </div>
   </div>
-    {{-- <div class="card" style="text-align: center"><br>
-        <div class="col-md-4 col-md-offset-4">
-            <h2 class="text-center">Login Admin Manna Kampus</h2>
-            <hr>
-            @if (session('error'))
-                <div class="alert alert-danger">
-                    <b>Opps!</b> {{ session('error') }}
-                </div>
-            @endif
-
-            <form action="{{ route('loginaksi') }}" method="post">
-                @csrf
-                <div class="form-floating">
-                    <input type="name" name="name" class="form-control" placeholder="Name" required="">
-                    <label for="floatingPassword">Name</label>
-                </div>
-
-                <div class="form-floating">
-                    <input type="password" name="password" class="form-control" placeholder="Password" required="">
-                    <label for="floatingPassword">Password</label>
-                </div>
-                <br>
-                <button type="submit" class="btn btn-primary btn-block">Log In</button>
-
-                <hr>
-                <p class="text-center">Belum punya akun? <a href="#">Register</a> sekarang!</p>
-            </form>
-        </div>
-    </div> --}}
     </body>
 </html>
